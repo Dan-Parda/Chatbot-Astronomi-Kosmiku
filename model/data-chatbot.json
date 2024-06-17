@@ -1,0 +1,3418 @@
+{
+    "intents": [
+
+        
+        {
+            "tag": "sapaan",
+            "patterns": [
+                "",
+                " ",
+                "Hallo",
+                "hai",
+                "saya ingin bertanya",
+                "halo",
+                "hi",
+                "hy"
+            ],
+            "responses": [
+                "Halo, Saya adalah robot yang akan membantumu dalam mencari tau tentang alam semesta",
+                "Hai, Ada yang bisa ditanyakan? saya akan membantu anda mencari tau tentang alam semesta"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "akhiran",
+            "patterns": [
+                "Terima Kasih",
+                "terima kasih banyak",
+                "info yang bermanfaat, terima kasih",
+                "sampai jumpa",
+                "akhiri",
+                "akhir" 
+            ],
+            "responses": [
+                "Terima Kasih, Senang membantu anda sampai jumpa kembali" 
+            ],
+            "context": [
+                ""
+            ]
+        },
+
+        {
+            "tag": "Planet Mars",
+            "patterns": [
+                "Apa itu planet Mars?",
+                "Planet Mars?",
+                "tentang planet Mars?",
+                "jelaskan mengenai planet Mars?"
+            ],
+            "responses": [
+                "Planet Mars adalah planet keempat dari Matahari dalam tata surya kita dan sering disebut sebagai Planet Merah karena penampilannya yang kemerahan, yang disebabkan oleh oksida besi (karat) yang ada di permukaannya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Letak Planet Mars",
+            "patterns": [
+                "Dimanakah letak planet Mars dalam tata surya?",
+                "letak planet Mars?",
+                "dimanakah planet Mars?",
+                "planet Mars di tata surya?"
+            ],
+            "responses": [
+                "Planet Mars terletak di tata surya kita sebagai planet keempat dari Matahari. Mars berada di antara planet Bumi dan planet Jupiter. Jarak rata-rata Mars dari Matahari adalah sekitar 227,9 juta kilometer atau 1,52 unit astronomi (AU), di mana 1 AU adalah jarak rata-rata antara Bumi dan Matahari."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Ukuran Planet Mars",
+            "patterns": [
+                "Seberapa besar ukuran planet Mars dibandingkan dengan planet lain?",
+                "besar ukuran planet Mars?",
+                "ukuran planet Mars?",
+                "perbandingan Mars dengan planet lain?"
+            ],
+            "responses": [
+                "Diameter Mars adalah sekitar 6.779 kilometer. Sebagai perbandingan, diameter Bumi adalah sekitar 12.742 kilometer, sehingga diameter Mars kira-kira setengah dari diameter Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Orbit Planet Mars",
+            "patterns": [
+                "Berapa lama waktu yang dibutuhkan Mars untuk mengorbit matahari?",
+                "orbit Mars berapa lama?",
+                "lama Mars mengorbit matahari?",
+                "Mars mengelilingi matahari berapa lama?"
+            ],
+            "responses": [
+                "Mars membutuhkan waktu sekitar 687 hari Bumi untuk menyelesaikan satu orbit penuh mengelilingi Matahari. Ini berarti satu tahun di Mars hampir dua kali lebih lama dari satu tahun di Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Hari Di Planet mars",
+            "patterns": [
+                "Mengapa hari di mars sangat panjang?",
+                "berapa hari di mars?",
+                "panjang hari di planet merkuris",
+                "perbandingan hari di mars dengan bumi?"
+            ],
+            "responses": [
+                "Hari di Merkurius (satu periode rotasi) berlangsung sekitar 24 Jam 39 menit Bumi, sedangkan satu tahun di mars (satu orbit penuh mengelilingi Matahari) hampir mirip dengan Bumi"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Rotasi Planet Mars",
+            "patterns": [
+                "Bagaimana rotasi Mars berbeda dari planet-planet lain?",
+                "rotasi Mars?",
+                "rasio rotasi Mars?",
+                "berapa rotasi Mars?"
+            ],
+            "responses": [
+                "Mars menyelesaikan satu rotasi penuh pada porosnya dalam waktu sekitar 24,6 jam, tepatnya 24 jam, 37 menit, dan 22,66 detik. Ini membuat satu hari Mars (sol) hanya sedikit lebih panjang dari satu hari di Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Komposisi Planet Mars",
+            "patterns": [
+                "Apa saja komposisi utama dari permukaan Mars?",
+                "komposisi permukaan Mars?",
+                "permukaan Mars seperti apa?",
+                "batuan yang terdapat di Mars apa?"
+            ],
+            "responses": [
+                "Komposisi Mars memberikan banyak petunjuk tentang sejarah geologis dan potensial untuk kehidupan masa lalu atau mikroorganisme saat ini. Data ini terutama dikumpulkan melalui misi seperti Viking, Mars rovers (Spirit, Opportunity, Curiosity, Perseverance), dan misi pengorbit seperti Mars Reconnaissance Orbiter."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Inti Planet Mars",
+            "patterns": [
+                "Bagaimana inti planet Mars dibandingkan dengan inti Bumi?",
+                "inti planet Mars?",
+                "berapa besar inti planet Mars?",
+                "terdapat apa saja di inti planet Mars?"
+            ],
+            "responses": [
+                "Inti Mars diyakini terdiri dari campuran besi (Fe), nikel (Ni), dan sulfur (S). Kehadiran sulfur menurunkan titik lebur besi, yang berpotensi membuat sebagian dari inti tetap cair"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Atmosfer Planet Mars",
+            "patterns": [
+                "Apakah Mars memiliki atmosfer?",
+                "atmosfer planet Mars?",
+                "apa saja atmosfer planet Mars?",
+                "bagaimana atmosfer planet Mars?"
+            ],
+            "responses": [
+                "Atmosfer Mars terutama terdiri dari karbon dioksida (95.3%), nitrogen (2.7%), dan argon (1.6%), dengan jejak oksigen (0.13%) dan air dalam bentuk uap. Tekanan atmosfer Mars sangat rendah, sekitar 0.6% dari tekanan atmosfer Bumi, yang menyebabkan air cair sulit bertahan di permukaan. Suhu di Mars rata-rata sekitar -60 derajat Celsius, dengan variasi yang ekstrem. Atmosfernya tipis dan berdebu, sering kali mengalami badai debu besar yang dapat menutupi seluruh planet selama berminggu-minggu."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Suhu Planet Mars",
+            "patterns": [
+                "Berapa suhu rata-rata di permukaan Mars?",
+                "suhu planet Mars?",
+                "berapa derajat di planet Mars?",
+                "bagaimana suhu di planet Mars?"
+            ],
+            "responses": [
+                "Suhu di Mars bisa sangat ekstrim, dengan perbedaan suhu yang signifikan antara siang dan malam. Secara umum, suhu rata-rata di permukaan Mars adalah sekitar -63 derajat Celsius (-81 derajat Fahrenheit). Namun, di siang hari di daerah yang terang, suhu bisa naik hingga sekitar 20 derajat Celsius (68 derajat Fahrenheit), terutama di sekitar khatulistiwa planet tersebut. Di malam hari atau di daerah yang teduh, suhu bisa turun drastis hingga sekitar -73 derajat Celsius (-100 derajat Fahrenheit) atau bahkan lebih rendah lagi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Suhu Siang & Malam Planet Mars",
+            "patterns": [
+                "Mengapa Mars memiliki perbedaan suhu yang sangat ekstrem antara siang dan malam?",
+                "perbedaan suhu antara siang dan malam?",
+                "suhu di Mars kenapa berbeda?",
+                "bagaimana suhu siang dan malam di Mars?"
+            ],
+            "responses": [
+                "Suhu di Mars dapat bervariasi secara signifikan antara siang dan malam karena planet ini memiliki atmosfer yang tipis dan tidak dapat menyimpan panas dengan baik. Selama siang hari di daerah yang terang, suhu bisa naik hingga sekitar 20 derajat Celsius (68 derajat Fahrenheit) atau bahkan lebih tinggi di tempat-tempat tertentu. Namun, ketika matahari terbenam dan malam tiba, suhu dapat turun drastis hingga mencapai sekitar -73 derajat Celsius (-100 derajat Fahrenheit) atau bahkan lebih rendah lagi, tergantung pada lokasi geografis dan kondisi atmosferik. Perbedaan suhu antara siang dan malam di Mars bisa mencapai puluhan derajat Celsius, membuatnya menjadi lingkungan yang sangat ekstrim bagi kehidupan seperti yang kita kenal di Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Misi Planet Mars",
+            "patterns": [
+                "Apa saja misi yang telah diluncurkan untuk mempelajari Mars?",
+                "misi di planet Mars?",
+                "apa saja misi di Mars yang sudah dilakukan?",
+                "apakah ada misi ke planet Mars?"
+            ],
+            "responses": [
+                "Misi ke Mars merupakan pencapaian luar biasa dalam eksplorasi antariksa, dengan berbagai wahana antariksa yang telah dikirim ke planet tersebut untuk memahami lebih dalam tentang karakteristiknya. NASA telah mengirim beberapa misi rover, seperti Opportunity, Spirit, Curiosity, dan Perseverance, yang secara detail mempelajari permukaan planet, mencari tanda-tanda kehidupan mikroba masa lalu, dan memahami geologi Mars. Sementara itu, misi kolaborasi antara ESA dan Roscosmos, ExoMars, bertujuan untuk menyelidiki lingkungan Mars, mencari tanda-tanda kehidupan mikroba, dan menggali potensi sumber air di planet tersebut. Misi-misi ini didukung oleh wahana antariksa seperti Mars Reconnaissance Orbiter (MRO), yang memetakan permukaan planet dan memantau kondisi cuaca serta potensi sumber air. Sebagai langkah inovatif, misi Perseverance juga mencakup helikopter Ingenuity, yang dirancang untuk melakukan penerbangan pertama di planet lain. Melalui berbagai misi ini, kita terus memperoleh wawasan baru tentang Mars dan mempersiapkan langkah-langkah menuju penjelajahan dan kolonisasi masa depan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Penemuan Planet Mars",
+            "patterns": [
+                "Apa penemuan terbaru tentang planet Mars dari misi-misi tersebut?",
+                "penemuan di planet Mars?",
+                "apa saja penemuan di Mars yang telah ditemukan?",
+                "apakah ada penemuan ke planet Mars?"
+            ],
+            "responses": [
+                "Salah satu penemuan yang paling signifikan di Mars adalah adanya bukti-bukti air di planet tersebut, yang mencakup jejak air yang pernah mengalir di permukaannya dan keberadaan es air di kutubnya. Temuan ini memberikan petunjuk penting terkait kondisi lingkungan masa lalu dan potensi kehidupan mikroba di Mars. Selain itu, penemuan molekul organik kompleks oleh misi seperti Curiosity Rover telah menambah kegembiraan dalam pencarian tanda-tanda kehidupan di planet ini. Gas metana yang terdeteksi di atmosfer Mars, baik oleh wahana antariksa maupun dari observasi teleskop di Bumi, juga memicu minat besar, karena metana bisa menjadi indikator adanya aktivitas geologi atau bahkan keberadaan kehidupan saat ini. Semua penemuan ini memberikan wawasan yang berharga tentang sejarah, geologi, dan potensi kehidupan di Mars, memperkaya pengetahuan kita tentang planet merah ini dan merangsang penelitian lebih lanjut untuk menjawab pertanyaan-pertanyaan yang masih menggantung."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Ilmuwan Planet Mars",
+            "patterns": [
+                "Bagaimana para ilmuwan mempelajari Mars dari Bumi?",
+                "pengamatan ilmuwan ke planet Mars?",
+                "apa saja pengamatan yang dilakukan ke Mars?",
+                "apakah ada pengamatan yang dilakukan ke planet Mars?"
+            ],
+            "responses": [
+                "Banyak ilmuwan dari berbagai disiplin ilmu yang terlibat dalam penelitian tentang Mars. Mereka termasuk ahli planetologi, geologi, ilmu atmosfer, astrobiologi, dan banyak lagi. Ilmuwan planetologi mempelajari formasi dan evolusi planet Mars, termasuk permukaan dan struktur geologisnya. Ilmuwan geologi menganalisis data dari misi-misi wahana antariksa untuk memahami sejarah geologis Mars, termasuk proses vulkanik, tektonik, dan pengaruh air di masa lalu. Ilmuwan atmosfer mempelajari atmosfer Mars, termasuk komposisi, dinamika, dan cuaca. Para astrobiolog mendalami kemungkinan adanya kehidupan di Mars, dengan memeriksa kondisi lingkungan masa lalu dan potensi keberadaan mikroba atau bentuk kehidupan sederhana lainnya. Semua ini merupakan contoh dari berbagai bidang keilmuan yang terlibat dalam penelitian dan pemahaman tentang planet Mars."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Fenomena Geologi Planet Merkurius",
+            "patterns": [
+                "Apakah ada fenomena geologis unik yang terjadi di Merkurius?",
+                "fenomena khusus di planet merkurius?",
+                "apakah pernah terjadi hal unik di planet merkurius?",
+                "kondisi geologi planet merkurius?"
+            ],
+            "responses": [
+                "Planet Mars menyuguhkan beragam fenomena geologis yang mengungkap sejarah dinamisnya. Dari lembah-lembah yang panjang hingga kawah-kawah besar yang tersebar di seluruh permukaannya, Mars menyimpan cerita tentang masa lalu yang penuh gejolak. Gunung berapi raksasa seperti Olympus Mons dan formasi geologis unik seperti kawah Gale memberikan bukti-bukti penting tentang aktivitas vulkanik dan proses geologis yang telah terjadi di planet ini. Bukit-bukit dan lembah-lembah juga memberikan petunjuk tentang kemungkinan adanya air yang pernah mengalir di permukaan Mars, sementara lapangan es di kutubnya menunjukkan perubahan musiman yang menciptakan pola yang dinamis. Melalui pemetaan dan analisis yang terus berlanjut, ilmuwan dapat mengeksplorasi lebih dalam tentang sejarah, evolusi, dan kondisi lingkungan Mars, membuka jendela pengetahuan yang lebih luas tentang planet merah ini."
+            ],
+            "context": [
+                ""
+            ]
+        }, 
+        {
+            "tag": "Perbandingan Planet Mars Dengan Venus",
+            "patterns": [
+                "Bagaimana Mars dibandingkan dengan Venus?",
+                "beda planet Mars dengan planet venus?",
+                "perbandingan planet Mars dengan venus?",
+                "Mars vs venus?"
+            ],
+            "responses": [
+                "Meskipun Mars dan Venus sama-sama merupakan tetangga Bumi di Tata Surya, keduanya memiliki perbedaan yang signifikan dalam hal karakteristik fisik, atmosfer, dan kondisi permukaan. Venus adalah planet yang lebih mirip dengan Bumi secara ukuran, tetapi memiliki atmosfer yang sangat tebal yang terdiri dari karbon dioksida dan awan asam sulfurik yang tebal, menciptakan efek rumah kaca yang ekstrem dan suhu permukaan yang sangat tinggi, membuatnya menjadi planet terpanas di Tata Surya. Di sisi lain, Mars memiliki atmosfer yang sangat tipis, terutama terdiri dari karbon dioksida dengan sedikit nitrogen dan oksigen, dan suhu permukaan yang lebih dingin, meskipun masih dapat bervariasi dari -140°C hingga 20°C, tergantung pada lokasi dan waktu. Mars juga memiliki topografi yang sangat beragam, dengan gunung berapi, lembah, dan kawah yang tersebar di permukaannya. Meskipun keduanya memiliki sejarah geologis yang menarik dan mungkin memiliki keberadaan air di masa lalu, Venus dan Mars menawarkan dua ekstrem yang berbeda dalam hal kondisi atmosfer dan lingkungan permukaan, menarik minat ilmuwan untuk memahami perbedaan dan kesamaan di antara keduanya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Perbandingan Planet Merkurius Dengan Mars",
+            "patterns": [
+                "Apa perbedaan utama antara Merkurius dan Mars?",
+                "beda planet merkurius dengan planet mars?",
+                "perbandingan planet merkurius dengan mars?",
+                "merkurius vs mars?"
+            ],
+            "responses": [
+                "Merkurius lebih kecil, lebih dekat ke Matahari, dan memiliki atmosfer yang lebih tipis dibandingkan Mars. Mars memiliki dua bulan kecil, sedangkan Merkurius tidak memiliki satelit alami."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Fakta Unik Mars",
+            "patterns": [
+                "Apa saja fakta unik tentang Mars yang jarang diketahui?",
+                "fakta unik apa saja dari planet Mars?",
+                "sebutkan fakta unik dari planet Mars?",
+                "hal unik Mars yang jarang diketahui?"
+            ],
+            "responses": [
+                "Salah satu fakta unik tentang Mars adalah julukannya sebagai Planet Merah karena warna merah yang khas dari permukaannya, yang disebabkan oleh kandungan oksida besi yang melimpah. Selain itu, Mars memiliki fitur geologis yang menakjubkan, termasuk gunung berapi tertinggi di Tata Surya, yaitu Olympus Mons, dan lembah yang sangat panjang dan dalam, seperti Valles Marineris. Selama musim dingin di kutubnya, Mars mengalami salju karbon dioksida, membentuk lapisan tebal es karbon dioksida yang dikenal sebagai tutup es. Meskipun atmosfernya tipis, Mars dapat mengalami badai debu yang besar yang bisa menutupi seluruh permukaannya. Penemuan air di masa lalu, baik dalam bentuk es maupun air cair yang mengalir, memberikan petunjuk penting tentang sejarah geologis dan potensi kehidupan di planet ini. Dengan karakteristiknya yang unik dan misterinya yang menarik, Mars tetap menjadi subjek penelitian yang menarik bagi ilmuwan dan sumber inspirasi bagi eksplorasi antariksa."
+            ],
+            "context": [
+                ""
+            ]
+        },  
+        {
+            "tag": "Gravitasi Planet Mars",
+            "patterns": [
+                "Bagaimana gravitasi di Mars mempengaruhi berat benda?",
+                "gravitasi tentang Mars?",
+                "berat benda di Mars?",
+                "apakah gravitasi Mars sama dengan bumi?"
+            ],
+            "responses": [
+                "Gravitasi di Mars adalah sekitar 38% dari gravitasi Bumi, yang berarti bahwa objek di Mars akan merasa sekitar 38% dari beratnya di Bumi. Ini disebabkan oleh massa yang lebih kecil Mars dibandingkan Bumi, serta ukuran dan kepadatan planet yang berbeda. Secara spesifik, percepatan gravitasi di permukaan Mars adalah sekitar 3.7 meter per detik kuadrat (m/s^2), sedangkan di Bumi, itu adalah sekitar 9.8 m/s^2. Gravitasi yang lebih rendah ini memiliki efek penting pada eksplorasi antariksa, karena membuatnya lebih mudah untuk meluncurkan pesawat dari permukaan Mars dan juga memengaruhi bagaimana manusia akan beradaptasi dengan lingkungan Mars jika melakukan misi antariksa atau kolonisasi di sana."
+            ],
+            "context": [
+                ""
+            ]
+        }, 
+        {
+            "tag": "Planet Merkurius",
+            "patterns": [
+                "Apa itu planet Merkurius?",
+                "Planet merkurius?",
+                "tentang planet merkurius?",
+                "jelaskan mengenai planet merkurius?"
+            ],
+            "responses": [
+                "Planet Merkurius adalah planet yang paling dekat dengan matahari di tata surya kita dan merupakan planet terkecil di antara kedelapan planet utama."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Letak Planet Merkurius",
+            "patterns": [
+                "Dimanakah letak planet Merkurius dalam tata surya?",
+                "letak planet merkurius?",
+                "dimanakah planet merkurius?",
+                "planet merkurius di tata surya?"
+            ],
+            "responses": [
+                "Merkurius terletak paling dekat dengan matahari, berada di posisi pertama dari delapan planet dalam tata surya kita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Ukuran Planet Merkurius",
+            "patterns": [
+                "Seberapa besar ukuran planet Merkurius dibandingkan dengan planet lain?",
+                "besar ukuran planet merkurius?",
+                "ukuran planet merkurius?",
+                "perbandingan merkurius dengan planet lain?"
+            ],
+            "responses": [
+                "Merkurius adalah planet terkecil di tata surya, dengan diameter sekitar 4.880 kilometer, yang berarti sedikit lebih besar dari bulan Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Orbit Planet Merkurius",
+            "patterns": [
+                "Berapa lama waktu yang dibutuhkan Merkurius untuk mengorbit matahari?",
+                "orbit merkurius berapa lama?",
+                "lama merkurius mengorbit matahari?",
+                "merkurius mengelilingi matahari berapa lama?"
+            ],
+            "responses": [
+                "Merkurius membutuhkan sekitar 88 hari Bumi untuk menyelesaikan satu orbit penuh mengelilingi Matahari."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Hari Di Planet Merkurius",
+            "patterns": [
+                "Mengapa hari di Merkurius sangat panjang?",
+                "berapa hari di merkurius?",
+                "panjang hari di planet merkuris",
+                "perbandingan hari di merkurius dengan bumi?"
+            ],
+            "responses": [
+                "Hari di Merkurius (satu periode rotasi) berlangsung sekitar 59 hari Bumi, sedangkan satu tahun di Merkurius (satu orbit penuh mengelilingi Matahari) hanya 88 hari Bumi. Ini membuat hari-hari di Merkurius sangat panjang dibandingkan dengan Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Rotasi Planet Merkurius",
+            "patterns": [
+                "Bagaimana rotasi Merkurius berbeda dari planet-planet lain?",
+                "rotasi merkurius?",
+                "rasio rotasi merkurius?",
+                "berapa rotasi merkurius?"
+            ],
+            "responses": [
+                "Rotasi Merkurius terikat secara gravitasi dengan Matahari, dalam rasio 3:2, yang berarti planet ini berotasi tiga kali setiap dua orbit mengelilingi Matahari."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Komposisi Planet Merkurius",
+            "patterns": [
+                "Apa saja komposisi utama dari permukaan Merkurius?",
+                "komposisi permukaan merkurius?",
+                "permukaan merkurius seperti apa?",
+                "batuan yang terdapat di merkurius apa?"
+            ],
+            "responses": [
+                "Permukaan Merkurius terdiri dari batuan silikat dan memiliki banyak kawah akibat tumbukan, mirip dengan bulan kita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Inti Planet Merkurius",
+            "patterns": [
+                "Bagaimana inti planet Merkurius dibandingkan dengan inti Bumi?",
+                "inti planet merkurius?",
+                "berapa besar inti planet merkurius?",
+                "terdapat apa saja di inti planet merkurius?"
+            ],
+            "responses": [
+                "Inti Merkurius diperkirakan sangat besar dibandingkan dengan ukuran planetnya, mencakup sekitar 75% dari diameter planet, dan terdiri dari besi dan nikel."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Atmosfer Planet Merkurius",
+            "patterns": [
+                "Apakah Merkurius memiliki atmosfer?",
+                "atmosfer planet merkurius?",
+                "apa saja atmosfer planet merkurius?",
+                "bagaimana atmosfer planet merkurius?"
+            ],
+            "responses": [
+                "Merkurius memiliki eksosfer yang sangat tipis, bukan atmosfer yang sejati. Eksosfer ini terutama terdiri dari atom oksigen, natrium, hidrogen, helium, dan kalium."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Suhu Planet Merkurius",
+            "patterns": [
+                "Berapa suhu rata-rata di permukaan Merkurius?",
+                "suhu planet merkurius?",
+                "berapa derajat di planet merkurius?",
+                "bagaimana suhu di planet merkurius?"
+            ],
+            "responses": [
+                "Suhu di permukaan Merkurius dapat mencapai hingga 430 derajat Celsius di siang hari dan turun hingga -180 derajat Celsius di malam hari."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Suhu Siang & Malam Planet Merkurius",
+            "patterns": [
+                "Mengapa Merkurius memiliki perbedaan suhu yang sangat ekstrem antara siang dan malam?",
+                "perbedaan suhu antara siang dan malam?",
+                "suhu di merkurius kenapa berbeda?",
+                "bagaimana suhu siang dan malam di merkurius?"
+            ],
+            "responses": [
+                "Karena Merkurius tidak memiliki atmosfer yang signifikan untuk mempertahankan panas, suhu di permukaan planet ini mengalami perbedaan ekstrem antara siang dan malam."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Misi Planet Merkurius",
+            "patterns": [
+                "Apa saja misi yang telah diluncurkan untuk mempelajari Merkurius?",
+                "misi di planet merkurius?",
+                "apa saja misi di merkurius yang sudah dilakukan?",
+                "apakah ada misi ke planet merkurius?"
+            ],
+            "responses": [
+                "Misi utama yang telah mempelajari Merkurius adalah Mariner 10 (1974-1975) dan MESSENGER (2004-2015). Saat ini, BepiColombo, misi gabungan dari ESA dan JAXA, sedang dalam perjalanan menuju Merkurius dan diharapkan tiba pada 2025."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Penemuan Planet Merkurius",
+            "patterns": [
+                "Apa penemuan terbaru tentang planet Merkurius dari misi-misi tersebut?",
+                "penemuan di planet merkurius?",
+                "apa saja penemuan di merkurius yang telah ditemukan?",
+                "apakah ada penemuan ke planet merkurius?"
+            ],
+            "responses": [
+                "Misi MESSENGER menemukan bahwa Merkurius memiliki es air di kawah-kawah yang selalu teduh di dekat kutubnya, dan juga mendeteksi elemen-elemen seperti sulfur dan kalium di permukaannya, yang mengindikasikan aktivitas vulkanik di masa lalu."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Ilmuwan Planet Merkurius",
+            "patterns": [
+                "Bagaimana para ilmuwan mempelajari Merkurius dari Bumi?",
+                "pengamatan ilmuwan ke planet merkurius?",
+                "apa saja pengamatan yang dilakukan ke merkurius?",
+                "apakah ada pengamatan yang dilakukan ke planet merkurius?"
+            ],
+            "responses": [
+                "Para ilmuwan menggunakan teleskop dan radar untuk mempelajari Merkurius dari Bumi, meskipun pengamatan ini terbatas karena kedekatannya dengan Matahari yang membuat pengamatan langsung sulit."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Fenomena Geologi Planet Merkurius",
+            "patterns": [
+                "Apakah ada fenomena geologis unik yang terjadi di Merkurius?",
+                "fenomena khusus di planet merkurius?",
+                "apakah pernah terjadi hal unik di planet merkurius?",
+                "kondisi geologi planet merkurius?"
+            ],
+            "responses": [
+                "Merkurius memiliki fitur geologis yang disebut tulis cacing atau lobate scarps, yang adalah tebing-tebing panjang yang terbentuk akibat penyusutan planet ini saat mendingin dan menyusut."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Tulis Cacing Planet Merkurius",
+            "patterns": [
+                "Apa itu tulis cacing di permukaan Merkurius dan bagaimana terbentuknya?",
+                "tulis cacing merkurius?",
+                "bagaimana terbentuknya tulis cacing?",
+                "hollow atau tulis cacing?"
+            ],
+            "responses": [
+                "Tulis cacing atau hollow adalah depresi kecil dan berwarna terang di permukaan Merkurius, yang mungkin terbentuk akibat sublimasi material volatil dari kerak planet yang terkena radiasi Matahari."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Perbandingan Planet Merkurius Dengan Venus",
+            "patterns": [
+                "Bagaimana Merkurius dibandingkan dengan Venus?",
+                "beda planet merkurius dengan planet venus?",
+                "perbandingan planet merkurius dengan venus?",
+                "merkurius vs venus?"
+            ],
+            "responses": [
+                "Merkurius lebih kecil dan lebih dekat ke Matahari dibandingkan Venus. Merkurius memiliki atmosfer yang sangat tipis sementara Venus memiliki atmosfer tebal yang penuh dengan gas rumah kaca."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Perbandingan Planet Merkurius Dengan Mars",
+            "patterns": [
+                "Apa perbedaan utama antara Merkurius dan Mars?",
+                "beda planet merkurius dengan planet mars?",
+                "perbandingan planet merkurius dengan mars?",
+                "merkurius vs mars?"
+            ],
+            "responses": [
+                "Merkurius lebih kecil, lebih dekat ke Matahari, dan memiliki atmosfer yang lebih tipis dibandingkan Mars. Mars memiliki dua bulan kecil, sedangkan Merkurius tidak memiliki satelit alami."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Fakta Unik Merkurius",
+            "patterns": [
+                "Apa saja fakta unik tentang Merkurius yang jarang diketahui?",
+                "fakta unik apa saja dari planet merkurius?",
+                "sebutkan fakta unik dari planet merkurius?",
+                "hal unik merkurius yang jarang diketahui?"
+            ],
+            "responses": [
+                "Salah satu fakta unik adalah Merkurius memiliki eksosfer, bukan atmosfer. Selain itu, Merkurius memiliki resonansi orbit-rotasi 3:2, yang berarti ia berputar tiga kali setiap dua orbitnya mengelilingi Matahari."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Dewa Romawi Merkurius",
+            "patterns": [
+                "Mengapa Merkurius dinamai sesuai dengan dewa Romawi?",
+                "dewa romawi merkurius?",
+                "apa itu dewa romawi merkurius?",
+                "dewa romawi?"
+            ],
+            "responses": [
+                "Merkurius dinamai sesuai dengan dewa Romawi utusan para dewa karena planet ini bergerak sangat cepat melintasi langit malam, mengingatkan pada kecepatan sang dewa."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Gravitasi Planet Merkurius",
+            "patterns": [
+                "Bagaimana gravitasi di Merkurius mempengaruhi berat benda?",
+                "gravitasi tentang merkurius?",
+                "berat benda di merkurius?",
+                "apakah gravitasi merkurius sama dengan bumi?"
+            ],
+            "responses": [
+                "Gravitasi di Merkurius adalah sekitar 38% dari gravitasi Bumi. Jadi, sebuah benda yang beratnya 100 kg di Bumi akan terasa hanya sekitar 38 kg di Merkurius."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Masa Depan Merkurius",
+            "patterns": [
+                "Apakah mungkin bagi manusia untuk tinggal di Merkurius di masa depan?",
+                "merkurius di masa depan apakah bisa ditinggali?",
+                "masa depan merkurius?",
+                "manusia di merkurius apakah bisa?"
+            ],
+            "responses": [
+                "Saat ini, tinggal di Merkurius sangat tidak mungkin karena kondisi lingkungan yang ekstrem, seperti suhu yang sangat tinggi dan rendah, serta tidak adanya atmosfer yang memadai untuk mendukung kehidupan manusia."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Planet Venus",
+            "patterns": [
+                "Apa itu planet Venus?",
+                "Planet venus?",
+                "tentang planet venus?",
+                "jelaskan mengenai planet venus?"
+            ],
+            "responses": [
+                "Venus adalah planet kedua dari Matahari dalam tata surya kita. Namanya diambil dari dewi cinta dan kecantikan dalam mitologi Romawi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Letak Planet Venus",
+            "patterns": [
+                "Dimanakah letak planet Venus dalam tata surya?",
+                "letak planet venus?",
+                "dimanakah planet venus?",
+                "planet venus di tata surya?"
+            ],
+            "responses": [
+                "Venus terletak di antara Merkurius dan Bumi, menjadikannya planet kedua dari Matahari."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Ukuran Planet Venus",
+            "patterns": [
+                "Seberapa besar ukuran planet Venus dibandingkan dengan planet lain?",
+                "besar ukuran planet venus?",
+                "ukuran planet venus?",
+                "perbandingan venus dengan planet lain?"
+            ],
+            "responses": [
+                "Venus memiliki diameter sekitar 12.104 kilometer, menjadikannya planet dengan diameter sedikit lebih kecil dari Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Orbit Planet Venus",
+            "patterns": [
+                "Berapa lama waktu yang dibutuhkan Venus untuk mengorbit Matahari?",
+                "orbit venus berapa lama?",
+                "lama venus mengorbit matahari?",
+                "venus mengelilingi matahari berapa lama?"
+            ],
+            "responses": [
+                "Venus membutuhkan sekitar 225 hari Bumi untuk menyelesaikan satu orbit penuh mengelilingi Matahari."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Planet Kembar Venus",
+            "patterns": [
+                "Mengapa Venus disebut sebagai planet kembar Bumi?",
+                "apa julukan planet venus?",
+                "apa maksud planet kembar?",
+                "bagaimana venus menjadi planet kembar?"
+            ],
+            "responses": [
+                "Venus sering disebut sebagai planet kembar Bumi karena ukurannya yang mirip dengan Bumi dan memiliki permukaan yang serupa dengan Bumi, meskipun kondisinya jauh lebih ekstrem."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Bulan Planet Venus",
+            "patterns": [
+                "Apakah Venus memiliki bulan?",
+                "satelit planet venus?",
+                "satelit?",
+                "bulan venus?"
+            ],
+            "responses": [
+                "Tidak, Venus tidak memiliki satelit alami."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Atmosfer Planet Venus",
+            "patterns": [
+                "Bagaimana kondisi atmosfer di Venus?",
+                "atmosfer planet venus?",
+                "apa saja atmosfer planet venus?",
+                "bagaimana atmosfer planet venus?"
+            ],
+            "responses": [
+                "Atmosfer Venus sangat tebal dan terdiri terutama dari karbon dioksida dengan kandungan gas belerang yang tinggi. Ini menciptakan efek rumah kaca yang kuat, membuat suhu permukaan Venus sangat tinggi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Suhu Planet Venus",
+            "patterns": [
+                "Berapa suhu rata-rata di permukaan Venus?",
+                "suhu planet venus?",
+                "berapa derajat di planet venus?",
+                "bagaimana suhu di planet venus?"
+            ],
+            "responses": [
+                "Suhu rata-rata di permukaan Venus mencapai sekitar 462°C, menjadikannya planet dengan suhu permukaan tertinggi dalam tata surya kita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Kenapa Suhu Planet Venus",
+            "patterns": [
+                "Mengapa suhu di Venus sangat tinggi?",
+                "perbedaan suhu venus?",
+                "suhu di venus kenapa berbeda?",
+                "bagaimana suhu di venus?"
+            ],
+            "responses": [
+                "Suhu yang sangat tinggi di Venus disebabkan oleh efek rumah kaca yang kuat di atmosfer planet tersebut, yang mempertahankan panas dari Matahari di permukaannya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Vulkanik Planet Venus",
+            "patterns": [
+                "Apakah Venus memiliki aktivitas vulkanik?",
+                "vulkanik planet venus?",
+                "adakah gunung berapi di venus?",
+                "aktifitas vulkanik venus apakah aktif?"
+            ],
+            "responses": [
+                "Ya, Venus memiliki banyak gunung berapi aktif dan bekas-bekas aktivitas vulkanik yang mengindikasikan adanya aktivitas geologis yang signifikan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Rotasi Planet Venus",
+            "patterns": [
+                "Bagaimana rotasi Venus berbeda dari Bumi?",
+                "rotasi planet venus?",
+                "rotasi venus?",
+                "rotasi terbalik venus?"
+            ],
+            "responses": [
+                "Venus berputar secara retrograde, yang berarti rotasinya terbalik jika dibandingkan dengan sebagian besar planet dalam tata surya, termasuk Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Magnetosfera Atau Medan Magnet Planet Venus",
+            "patterns": [
+                "Apakah Venus memiliki magnetosfera?",
+                "bagaimana medan magnet planet venus?",
+                "medan magnet venus apakah kuat?",
+                "bumi dan venus apakah mempunyai medan magnet yang sama?"
+            ],
+            "responses": [
+                "Meskipun Venus memiliki inti besi nikel yang besar seperti Bumi, planet ini tidak memiliki medan magnet yang kuat seperti Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Cahaya Planet Venus",
+            "patterns": [
+                "Apa yang membuat Venus tampak sangat terang dari Bumi?",
+                "bagaimana cahaya planet venus?",
+                "planet venus apakah terang?",
+                "mengapa planet venus menyerap cahaya matahari?"
+            ],
+            "responses": [
+                "Venus tampak sangat terang dari Bumi karena atmosfer tebalnya, yang memantulkan dan menyerap cahaya Matahari dengan baik."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Misi Ke Planet Venus",
+            "patterns": [
+                "Apakah Venus pernah dijelajahi oleh misi ruang angkasa?",
+                "misi di planet venus?",
+                "apa saja misi di venus yang sudah dilakukan?",
+                "apakah ada misi ke planet venus?"
+            ],
+            "responses": [
+                "Beberapa misi telah dikirim ke Venus untuk mempelajari planet ini, termasuk misi Mariner oleh NASA dan misi Magellan, yang memberikan peta radar yang detail tentang permukaan Venus."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Misi Ke Planet Venus",
+            "patterns": [
+                "Apakah Venus pernah dijelajahi oleh misi ruang angkasa?",
+                "misi di planet venus?",
+                "apa saja misi di venus yang sudah dilakukan?",
+                "apakah ada misi ke planet venus?"
+            ],
+            "responses": [
+                "Beberapa misi telah dikirim ke Venus untuk mempelajari planet ini, termasuk misi Mariner oleh NASA dan misi Magellan, yang memberikan peta radar yang detail tentang permukaan Venus."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Kehidupan Planet Venus",
+            "patterns": [
+                "Apakah ada kemungkinan kehidupan di Venus?",
+                "venus di masa depan apakah bisa ditinggali?",
+                "masa depan venus?",
+                "manusia di venus apakah bisa?"
+            ],
+            "responses": [
+                "Kondisi ekstrem di permukaan Venus membuatnya tidak mungkin mendukung kehidupan seperti yang kita kenal. Namun, beberapa ilmuwan telah mengusulkan bahwa mungkin ada kehidupan mikroba di lapisan awan atas Venus."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Perbandingan Planet Venus Dengan Mars",
+            "patterns": [
+                "Apa perbedaan utama antara Venus dan Mars?",
+                "beda planet venus dengan planet mars?",
+                "perbandingan planet venus dengan mars?",
+                "venus vs mars?"
+            ],
+            "responses": [
+                "Perbedaan utama antara Venus dan Mars adalah atmosfer dan suhu permukaannya. Venus memiliki atmosfer tebal dan suhu permukaan yang sangat tinggi, sementara Mars memiliki atmosfer tipis dan suhu permukaan yang jauh lebih dingin."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Gravitasi Planet Venus",
+            "patterns": [
+                "Bagaimana gravitasi di Venus mempengaruhi berat benda?",
+                "gravitasi tentang planet venus?",
+                "berat benda di venus?",
+                "apakah gravitasi venus sama dengan bumi?"
+            ],
+            "responses": [
+                "Gravitasi di Venus hampir sama dengan gravitasi di Bumi, sekitar 91% dari gravitasi Bumi. Jadi, berat benda di Venus hampir sama dengan beratnya di Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Masa Depan Planet Venus",
+            "patterns": [
+                "Apakah mungkin bagi manusia untuk tinggal di Venus di masa depan?",
+                "tinggal di venus apakah bisa?",
+                "manusia di planet venus?",
+                "mada depan planet venus?"
+            ],
+            "responses": [
+                "Tinggal di permukaan Venus sangat sulit karena suhu yang sangat tinggi dan tekanan atmosfer yang ekstrem. Namun, beberapa ilmuwan telah mengusulkan konsep koloni terapung di lapisan awan atas Venus yang lebih temperaturnya lebih ramah."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Planet Bumi",
+            "patterns": [
+                "Apa itu planet Bumi?",
+                "Planet bumi?",
+                "tentang planet bumi?",
+                "jelaskan mengenai planet bumi?"
+            ],
+            "responses": [
+                "Bumi adalah planet ketiga dari Matahari dalam tata surya kita, dan satu-satunya planet yang diketahui memiliki kehidupan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Letak Planet Bumi",
+            "patterns": [
+                "Bagaimana posisi Bumi dalam tata surya?",
+                "letak planet bumi?",
+                "dimanakah planet bumi?",
+                "planet bumi di tata surya?"
+            ],
+            "responses": [
+                "Bumi terletak di orbit ketiga dari Matahari, di antara planet Merkurius dan Mars.",
+                "Bumi terletak di antara planet Venus dan Mars, menjadikannya planet ketiga dari Matahari."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Ukuran Planet Bumi",
+            "patterns": [
+                "Seberapa besar ukuran Bumi dibandingkan dengan planet lain?",
+                "besar ukuran planet bumi?",
+                "ukuran planet numi?",
+                "perbandingan bumi dengan planet lain?"
+            ],
+            "responses": [
+                "Bumi memiliki diameter sekitar 12.742 kilometer, menjadikannya planet terbesar kelima dalam tata surya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Orbit Planet Bumi",
+            "patterns": [
+                "Berapa lama waktu yang dibutuhkan Bumi untuk mengorbit Matahari?",
+                "orbit bumi berapa lama?",
+                "lama bumi mengorbit matahari?",
+                "bumi mengelilingi matahari berapa lama?"
+            ],
+            "responses": [
+                "Bumi membutuhkan sekitar 365,25 hari Bumi untuk menyelesaikan satu orbit penuh mengelilingi Matahari, yang dikenal sebagai satu tahun."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Satelit Planet Bumi",
+            "patterns": [
+                "Apakah Bumi memiliki satelit alami?",
+                "satelit planet bumi?",
+                "satelit bumi?",
+                "bulan bumi merupakan?"
+            ],
+            "responses": [
+                "Bumi memiliki satu satelit alami yang disebut Bulan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Komposisi Atmosfer Planet Bumi",
+            "patterns": [
+                "Bagaimana komposisi atmosfer Bumi?",
+                "atmosfer planet bumi?",
+                "apa saja atmosfer planet bumi?",
+                "bagaimana atmosfer planet bumi?"
+            ],
+            "responses": [
+                "Atmosfer Bumi terdiri terutama dari nitrogen (sekitar 78%) dan oksigen (sekitar 21%), dengan kandungan gas lainnya seperti argon, karbon dioksida, dan uap air.",
+                "Atmosfer Bumi terbentuk dari gas-gas yang dilepaskan oleh aktivitas vulkanik dan proses lainnya di awal sejarah Bumi. Atmosfer ini terdiri dari nitrogen, oksigen, dan sejumlah kecil gas lainnya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Suhu Planet Bumi",
+            "patterns": [
+                "Berapa suhu rata-rata di permukaan Bumi?",
+                "suhu planet bumi?",
+                "berapa derajat di planet bumi?",
+                "bagaimana suhu di planet bumi?"
+            ],
+            "responses": [
+                "Suhu rata-rata di permukaan Bumi adalah sekitar 15°C (59°F)."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Planet Biru Bumi",
+            "patterns": [
+                "Mengapa Bumi disebut sebagai planet biru?",
+                "apa julukan planet bumi?",
+                "apa maksud planet biru?",
+                "bagaimana venus menjadi planet biru?"
+            ],
+            "responses": [
+                "Bumi disebut sebagai planet biru karena warna atmosfernya yang terlihat biru dari luar angkasa."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Kutub Planet Bumi",
+            "patterns": [
+                "Apakah Bumi memiliki kutub utara dan selatan?",
+                "kutub di bumi?",
+                "letak atau wilayah kutub di bumi?",
+                "berapa kutub di bumi?"
+            ],
+            "responses": [
+                "Bumi memiliki dua kutub, yaitu Kutub Utara di wilayah Arktik dan Kutub Selatan di wilayah Antartika."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Vulkanik Planet Bumi",
+            "patterns": [
+                "Bagaimana aktivitas vulkanik di Bumi?",
+                "vulkanik planet bumi?",
+                "adakah gunung berapi di bumi?",
+                "aktifitas vulkanik bumi apakah aktif?",
+                "kenapa terjadi aktivitas vulkanik?"
+            ],
+            "responses": [
+                "Bumi memiliki sejumlah gunung berapi aktif dan tidak aktif. Aktivitas vulkanik terjadi karena pergerakan lempeng tektonik di bawah permukaan Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Gempa Bumi Planet Bumi",
+            "patterns": [
+                "Apa itu gempa bumi dan bagaimana terjadinya?",
+                "gempa bumi planet bumi?",
+                "bagaimana terjadinya di bumi?",
+                "aktifitas gempa bumi di bumi?"
+            ],
+            "responses": [
+                "Gempa bumi adalah getaran yang terjadi secara tiba-tiba di permukaan Bumi akibat pelepasan energi dari dalam Bumi, terutama akibat pergeseran lempeng tektonik.",
+                "Gempa bumi disebabkan oleh pelepasan energi secara tiba-tiba akibat pergeseran lempeng tektonik di kerak Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Kontinental Planet Bumi",
+            "patterns": [
+                "Apakah ada kontinental di Bumi?",
+                "kontinental bumi?",
+                "apa itu kontinental bumi?",
+                "berapa banyak kontinental di bumi?"
+            ],
+            "responses": [
+                "Kontinental adalah istilah yang mengacu pada sesuatu yang berkaitan dengan benua, termasuk geografi, geologi, iklim, budaya, dan hukum. Dalam geografi, ini merujuk pada daratan utama benua; dalam geologi, pada kerak benua dan landas kontinen; dalam iklim, pada variasi suhu besar antara musim; dalam budaya, pada kebiasaan di daratan Eropa seperti sarapan kontinental; dan dalam hukum, pada sistem hukum berdasarkan tradisi Romawi, berbeda dari sistem common law Inggris. Singkatnya, kontinental menekankan keterkaitan dengan benua atau daratan utama. Planet Bumi sendiri memiliki tujuh kontinental besar: Asia, Eropa, Amerika Utara, Amerika Selatan, Afrika, Australia, dan Antartika."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Iklim Planet Bumi",
+            "patterns": [
+                "Bagaimana Bumi memengaruhi iklim global?",
+                "iklim planet bumi?",
+                "bagaimana iklim di bumi?",
+                "aktifitas iklim di bumi?"
+            ],
+            "responses": [
+                "Bumi memiliki sistem iklim yang kompleks yang dipengaruhi oleh faktor-faktor seperti radiasi Matahari, distribusi air, arus laut, dan topografi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Penduduk Planet Bumi",
+            "patterns": [
+                "Apakah ada daerah tertentu di Bumi yang padat penduduk?",
+                "beberapa daerah padat planet bumi?",
+                "daerah padat penduduk?",
+                "penduduk dengan daerah padat di bumi?"
+            ],
+            "responses": [
+                "Ada beberapa daerah yang sangat padat penduduk, seperti Asia Tenggara, Tiongkok, India, Eropa Barat, dan pantai timur Amerika Utara."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Perubahan Iklim Planet Bumi",
+            "patterns": [
+                "Bagaimana perubahan iklim mempengaruhi Bumi?",
+                "perubahan iklim planet bumi?",
+                "apa saja yang terjadi saat perubahan iklim?",
+                "dampak perubahan iklim pada bumi?"
+            ],
+            "responses": [
+                "Perubahan iklim menyebabkan peningkatan suhu global, perubahan pola cuaca, kenaikan permukaan air laut, dan banyak dampak lainnya pada lingkungan dan kehidupan manusia.",
+                "Perubahan iklim disebabkan oleh faktor alami seperti letusan gunung berapi dan variasi Matahari, serta aktivitas manusia seperti pembakaran bahan bakar fosil dan deforestasi yang meningkatkan konsentrasi gas rumah kaca di atmosfer."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Gerhana Planet Bumi",
+            "patterns": [
+                "Apakah Bumi mengalami gerhana matahari dan bulan?",
+                "gerhana di planet bumi?",
+                "apa saja gerhana di planet bumi?",
+                "bagaimana gerhana bisa terjadi?"
+            ],
+            "responses": [
+                "Bumi mengalami gerhana matahari saat Bulan berada di antara Matahari dan Bumi, serta gerhana bulan saat Bumi berada di antara Matahari dan Bulan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Lapisan Atmosfer Planet Bumi",
+            "patterns": [
+                "Apakah Bumi memiliki lapisan atmosfer luar?",
+                "atmosfer planet bumi?",
+                "apa saja atmosfer planet bumi?",
+                "bagaimana atmosfer planet bumi?"
+            ],
+            "responses": [
+                "Bumi memiliki lapisan atmosfer luar yang disebut eksosfer, yang merupakan lapisan paling luar dan beranggotakan partikel-partikel yang terlepas dari gravitasi Bumi.",
+                "Atmosfer Bumi terdiri dari lima lapisan utama: troposfer, stratosfer, mesosfer, termosfer, dan eksosfer."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Interaksi Planet Bumi",
+            "patterns": [
+                "Bagaimana Bumi berinteraksi dengan planet-planet lain dalam tata surya?",
+                "interaksi planet bumi dengan planet lain?",
+                "bagaimana interaksi bumi di tata surya?"
+            ],
+            "responses": [
+                "Bumi berinteraksi dengan planet-planet lain dalam tata surya melalui gaya gravitasi dan pengaruh dinamika orbital."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Kutub Magnet Planet Bumi",
+            "patterns": [
+                "Apakah Bumi memiliki kutub magnet?",
+                "kutub magnet bumi?",
+                "bagaimana kutub magnet bumi?",
+                "kutub magnet bumi memiliki apa?"
+            ],
+            "responses": [
+                "Bumi memiliki kutub magnet yang terbentuk oleh inti besi yang cair di dalam planet."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Kehidupan Planet Bumi",
+            "patterns": [
+                "Bagaimana Bumi berperan dalam menjaga kehidupan?",
+                "kehidupan di planet bumi?",
+                "kenapa bumi menjadi tempat kehidupan?",
+                "pendukung kehidupan di bumi?"
+            ],
+            "responses": [
+                "Bumi berperan sebagai rumah bagi berbagai bentuk kehidupan, menyediakan kondisi yang mendukung kelangsungan hidup melalui air, udara, dan sumber daya alam lainnya.",
+                "Bumi mendukung kehidupan dengan menyediakan air dalam bentuk cair, atmosfer yang melindungi dari radiasi berbahaya dan menyediakan oksigen, serta suhu yang stabil dan cocok untuk makhluk hidup."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Planet Jupiter",
+            "patterns": [
+                "Apa itu planet Jupiter?",
+                "Planet Jupiter?",
+                "tentang planet Jupiter?",
+                "jelaskan mengenai planet Jupiter?"
+            ],
+            "responses": [
+                "Jupiter adalah planet kelima dari Matahari dalam tata surya kita dan merupakan planet terbesar di antara semua planet.."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Letak Planet Jupiter",
+            "patterns": [
+                "Dimanakah letak planet Jupiter dalam tata surya?",
+                "letak planet Jupiter?",
+                "dimanakah planet Jupiter?",
+                "planet Jupiter di tata surya?"
+            ],
+            "responses": [
+                "Jupiter terletak di antara Mars dan Saturnus, berada di posisi kelima dari Matahari dalam tata surya kita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Ukuran Planet Jupiter",
+            "patterns": [
+                "Seberapa besar ukuran planet Jupiter dibandingkan dengan planet lain?",
+                "besar ukuran planet Jupiter?",
+                "ukuran planet Jupiter?",
+                "perbandingan Jupiter dengan planet lain?"
+            ],
+            "responses": [
+                "Jupiter adalah planet terbesar di tata surya, dengan diameter sekitar 139.820 kilometer. Ini berarti lebih dari 11 kali diameter Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Orbit Planet Jupiter",
+            "patterns": [
+                "Berapa lama waktu yang dibutuhkan Jupiter untuk mengorbit matahari?",
+                "orbit Jupiter berapa lama?",
+                "lama Jupiter mengorbit matahari?",
+                "Jupiter mengelilingi matahari berapa lama?"
+            ],
+            "responses": [
+                "Jupiter membutuhkan sekitar 11,86 tahun Bumi untuk menyelesaikan satu orbit penuh mengelilingi Matahari."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Hari Di Planet Jupiter",
+            "patterns": [
+                "Apakah hari di Jupiter sangat pendek?",
+                "berapa hari di Jupiter?",
+                "panjang hari di planet Jupiter",
+                "perbandingan hari di Jupiter dengan bumi?"
+            ],
+            "responses": [
+                "Hari di Jupiter (satu periode rotasi) berlangsung sekitar 9 jam 55 menit Bumi, sedangkan satu tahun di Jupiter (satu orbit penuh mengelilingi Matahari) adalah sekitar 11,8 tahun Bumi. Hal ini membuat hari-hari di Jupiter jauh lebih pendek dibandingkan dengan Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Rotasi Planet Jupiter",
+            "patterns": [
+                "Bagaimana rotasi Jupiter berbeda dari planet-planet lain?",
+                "rotasi Jupiter?",
+                "rasio rotasi Jupiter?",
+                "berapa rotasi Jupiter?"
+            ],
+            "responses": [
+                "Jupiter berotasi lebih cepat daripada planet lain dalam tata surya, dengan satu hari yang berlangsung hanya sekitar 9 jam 55 menit Bumi.Rotasi Jupiter tidak sinkron dengan orbitnya mengelilingi Matahari. Ini berarti bahwa satu hari di Jupiter tidak sama dengan satu hari Matahari (waktu yang dibutuhkan Jupiter untuk menyelesaikan satu rotasi penuh relatif terhadap Matahari).Jupiter memiliki rasio rotasi-orbit 3:2. Ini berarti planet ini berotasi tiga kali setiap dua orbit mengelilingi Matahari."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Komposisi Planet Jupiter",
+            "patterns": [
+                "Apa saja komposisi utama dari permukaan Jupiter?",
+                "komposisi permukaan Jupiter?",
+                "permukaan Jupiter seperti apa?",
+                "batuan yang terdapat di Jupiter apa?"
+            ],
+            "responses": [
+                "Jupiter adalah raksasa gas, yang berarti tidak memiliki permukaan padat seperti Bumi. Atmosfernya terdiri dari hidrogen, helium, dan metana, dan memiliki banyak badai dan angin kencang."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Inti Planet Jupiter",
+            "patterns": [
+                "Bagaimana inti planet Jupiter dibandingkan dengan inti Bumi?",
+                "inti planet Jupiter?",
+                "berapa besar inti planet Jupiter?",
+                "terdapat apa saja di inti planet Jupiter?"
+            ],
+            "responses": [
+                " Inti Jupiter diperkirakan memiliki diameter sekitar 14.000 kilometer, yang merupakan sekitar 75% dari diameter planet. Ini jauh lebih besar daripada inti Bumi, yang hanya sekitar 1.700 kilometer diameternya.Inti Jupiter diperkirakan terdiri dari besi dan nikel yang sangat padat dan panas. Tekanan di inti Jupiter diperkirakan mencapai jutaan atmosfer, dan suhunya mencapai puluhan ribu derajat Celcius. Inti Jupiter menghasilkan medan magnet yang sangat kuat, yang merupakan salah satu medan magnet terkuat di tata surya. Medan magnet ini membantu melindungi Jupiter dari radiasi berbahaya dari Matahari."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Atmosfer Planet Jupiter",
+            "patterns": [
+                "Apakah Jupiter memiliki atmosfer?",
+                "atmosfer planet Jupiter?",
+                "apa saja atmosfer planet Jupiter?",
+                "bagaimana atmosfer planet Jupiter?",
+                "Apa yag ada di atmosfer Jupiter?"
+            ],
+            "responses": [
+                "Atmosfer Jupiter terdiri dari hidrogen dan helium, dengan awan tebal amonia dan metana. Ini juga memiliki badai besar, termasuk Bintik Merah Besar, yang merupakan badai raksasa yang telah berlangsung selama ratusan tahun."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Misi Planet Jupiter",
+            "patterns": [
+                "Apa saja misi yang telah diluncurkan untuk mempelajari Jupiter?",
+                "misi di planet Jupiter?",
+                "apa saja misi di Jupiter yang sudah dilakukan?",
+                "apakah ada misi ke planet Jupiter?"
+            ],
+            "responses": [
+                "Saat ini, beberapa misi sedang berlangsung dan direncanakan untuk mempelajari planet Jupiter dan sistemnya. Misi Juno NASA, yang mengorbit Jupiter sejak 2016, fokus pada atmosfer, magnetosfer, dan interior planet raksasa ini. Misi JUICE ESA, diluncurkan pada tahun 2023, akan tiba di Jupiter pada tahun 2031 untuk mempelajari tiga bulan utamanya: Ganymede, Europa, dan Callisto. Misi Europa Clipper NASA, yang diluncurkan pada tahun 2024 dan dijadwalkan tiba di Jupiter pada tahun 2030, akan meneliti bulan Europa secara mendalam, mencari bukti potensi kehidupan di sana. BepiColombo, misi gabungan JAXA dan ESA yang diluncurkan pada tahun 2018, akan mencapai Jupiter pada tahun 2025 untuk mempelajari Merkurius dan Jupiter."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Penemuan Planet Jupiter",
+            "patterns": [
+                "Apa penemuan terbaru tentang planet Jupiter dari misi-misi tersebut?",
+                "penemuan di planet Jupiter?",
+                "apa saja penemuan di Jupiter yang telah ditemukan?",
+                "apakah ada penemuan ke planet Jupiter?"
+            ],
+            "responses": [
+                "Penemuan terbaru tentang planet Jupiter telah mengungkap berbagai aspek baru dari planet raksasa ini dan satelit-satelitnya. Teleskop James Webb menemukan aliran jet di atmosfer Jupiter dengan kecepatan angin sekitar 320 mil per jam, memberikan wawasan baru tentang interaksi lapisan-lapisan atmosfer planet tersebut​ (NASA)​. Selain itu, Jupiter kini memiliki 92 bulan setelah penemuan 12 satelit baru, menjadikannya planet dengan jumlah bulan terbanyak di tata surya​ (livescience.com)​. Misi Juno juga berhasil mendapatkan data detail tentang danau lava di Io dan memetakan medan magnet Jupiter, termasuk Great Blue Spot yang bergerak ke arah timur​ (Space.com)​​ (EarthSky)​. Peneliti juga menemukan bahwa siklon di kutub Jupiter memiliki dinamika yang mirip dengan pusaran laut di Bumi, membantu memahami mekanisme fisik yang terjadi di atmosfer Jupiter​ (EarthSky)​. "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Ilmuwan Planet Jupiter",
+            "patterns": [
+                "Bagaimana para ilmuwan mempelajari Jupiter dari Bumi?",
+                "pengamatan ilmuwan ke planet Jupiter?",
+                "apa saja pengamatan yang dilakukan ke Jupiter?",
+                "apakah ada pengamatan yang dilakukan ke planet Jupiter?"
+            ],
+            "responses": [
+                "Para ilmuwan mempelajari Jupiter dari Bumi menggunakan teleskop besar seperti Hubble dan James Webb untuk mengamati atmosfer dan cuaca Jupiter dengan resolusi tinggi, serta analisis spektral untuk mengungkap komposisi kimia dan dinamika atmosfernya. Radio teleskop juga digunakan untuk mempelajari emisi radio dan medan magnet Jupiter. Selain itu, pengiriman wahana antariksa seperti Galileo dan Juno memungkinkan pengamatan langsung dari dekat dengan berbagai instrumen ilmiah untuk mengukur medan magnet, gravitasional, dan interior Jupiter, memberikan data yang tidak bisa diperoleh dari Bumi saja​"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Fenomena Geologi Planet Jupiter",
+            "patterns": [
+                "Apakah ada fenomena geologis unik yang terjadi di Jupiter?",
+                "fenomena khusus di planet Jupiter?",
+                "apakah pernah terjadi hal unik di planet Jupiter?",
+                "kondisi geologi planet Jupiter?"
+            ],
+            "responses": [
+                "Planet Jupiter memiliki beberapa fenomena geologis unik dan menarik yang terjadi di dalam atmosfer Salah satu fenomena paling terkenal adalah Great Red Spot (Titik Merah Besar), sebuah badai antisyklon raksasa yang telah berlangsung selama setidaknya 400 tahun. Selain itu, terdapat Great Blue Spot, sebuah anomali magnetik di ekuator Jupiter yang terdeteksi oleh wahana antariksa Juno. upiter juga memiliki zonal winds atau angin zonal yang sangat kuat, yang membentuk pola pita yang terlihat pada atmosfernya. "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Perbandingan Planet Jupiter Dengan Saturnus",
+            "patterns": [
+                "Bagaimana Jupiter dibandingkan dengan Saturnus?",
+                "beda planet Jupiter dengan planet Saturnus?",
+                "perbandingan planet Jupiter dengan Saturnus?",
+                "Jupiter vs Saturnus?"
+            ],
+            "responses": [
+                "Jupiter lebih besar dan lebih masif dibandingkan dengan Saturnus, dengan diameter 139.820 km dibandingkan dengan 116.460 km. Kedua planet terutama terdiri dari hidrogen dan helium, tetapi Jupiter memiliki inti yang lebih besar dari unsur-unsur berat. Jupiter memiliki cincin yang sangat tipis dan kurang mencolok, sementara Saturnus memiliki sistem cincin yang luas dan spektakuler."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Fakta Unik Jupiter",
+            "patterns": [
+                "Apa saja fakta unik tentang Jupiter yang jarang diketahui?",
+                "fakta unik apa saja dari planet Jupiter?",
+                "sebutkan fakta unik dari planet Jupiter?",
+                "hal unik Jupiter yang jarang diketahui?"
+            ],
+            "responses": [
+                "Jupiter adalah planet terbesar di tata surya dan memiliki banyak fakta unik yang membuatnya sangat menarik untuk dipelajari. Dengan diameter 139.820 km, Jupiter jauh lebih besar dari planet lainnya dan memiliki massa lebih dari dua setengah kali gabungan massa semua planet di tata surya.Jupiter terkenal dengan sistem cuacanya yang ekstrem, termasuk Bintik Merah Besar, sebuah badai antisyklon raksasa yang telah berlangsung selama setidaknya 400 tahun."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Dewa Romawi Jupiter",
+            "patterns": [
+                "Mengapa Jupiter dinamai sesuai dengan dewa Romawi?",
+                "dewa romawi Jupiter?",
+                "apa itu dewa romawi Jupiter?",
+                "dewa romawi?"
+            ],
+            "responses": [
+                "Nama planet Jupiter berasal dari mitologi Romawi. Jupiter adalah dewa utama dalam mitologi Romawi, setara dengan dewa Zeus dalam mitologi Yunani. Sebagai raja para dewa, Jupiter adalah dewa langit dan petir, dan dianggap sebagai penguasa tertinggi di antara para dewa Romawi. Penamaan planet ini sesuai dengan posisinya sebagai planet terbesar di tata surya, mencerminkan kekuasaan dan kebesaran dewa yang menjadi namanya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Gravitasi Planet Jupiter",
+            "patterns": [
+                "Bagaimana gravitasi di Jupiter mempengaruhi berat benda?",
+                "gravitasi tentang Jupiter?",
+                "berat benda di Jupiter?",
+                "apakah gravitasi Jupiter sama dengan bumi?"
+            ],
+            "responses": [
+                "Gravitasi Jupiter merupakan kekuatan gravitasi yang dihasilkan oleh planet Jupiter. Jupiter memiliki massa yang sangat besar, sekitar 318 kali massa Bumi, sehingga memiliki gravitasi yang kuat."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Masa Depan Jupiter",
+            "patterns": [
+                "Apakah mungkin bagi manusia untuk tinggal di Jupiter di masa depan?",
+                "Jupiter di masa depan apakah bisa ditinggali?",
+                "masa depan Jupiter?",
+                "manusia di Jupiter apakah bisa?"
+            ],
+            "responses": [
+                "Sejauh ini, kondisi di Jupiter sangat tidak ramah bagi manusia. Permukaannya tidak padat seperti bumi, melainkan terdiri dari lapisan gas yang dalam dan tebal. Atmosfer Jupiter terdiri dari hidrogen, helium, dan jejak-jejak gas lainnya yang membuatnya sangat tidak cocok untuk kehidupan manusia. Di dalamnya, tekanan dan suhu sangat tinggi, serta radiasi yang kuat membuatnya tidak mungkin dihuni oleh manusia tanpa perlindungan yang sangat canggih."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Satelit Jupiter",
+            "patterns": [
+                "Berapa jumlah bulan ilik Jupiter",
+                "Bulan milik Jupiter?",
+                "Satelit milik Jupiter",
+                "Berapa banyak Satelit alami milik Jupiter?"
+            ],
+            "responses": [
+                "upiter memiliki setidaknya 79 bulan, dengan yang terbesar adalah Ganymede, Callisto, Io, dan Europa, yang dikenal sebagai bulan Galilea."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Cincin Jupiter",
+            "patterns": [
+                "Apakah Jupiter punya Cincin?",
+                "Apa cincin Jupiter?"
+            ],
+            "responses": [
+                "Jupiter memiliki sistem cincin yang sangat tipis dan terdiri dari partikel debu yang terbentuk dari dampak meteorit pada bulan-bulannya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Planet Saturnus",
+            "patterns": [
+                "Apa itu planet Saturnus?",
+                "Planet Saturnus?",
+                "tentang planet Saturnus?",
+                "jelaskan mengenai planet Saturnus?"
+            ],
+            "responses": [
+                "Saturnus adalah planet keenam dari Matahari dalam tata surya kita dan merupakan planet gas raksasa yang terkenal dengan cincin-cincinnya yang spektakuler."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Letak Planet Saturnus",
+            "patterns": [
+                "Dimanakah letak planet Saturnus dalam tata surya?",
+                "letak planet Saturnus?",
+                "dimanakah planet Saturnus?",
+                "planet Saturnus di tata surya?"
+            ],
+            "responses": [
+                "Saturnus terletak di luar planet Jupiter dan merupakan planet keenam dari Matahari dalam tata surya kita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Ukuran Planet Saturnus",
+            "patterns": [
+                "Seberapa besar ukuran planet Saturnus dibandingkan dengan planet lain?",
+                "besar ukuran planet Saturnus?",
+                "ukuran planet Saturnus?",
+                "perbandingan Saturnus dengan planet lain?"
+            ],
+            "responses": [
+                "Saturnus memiliki diameter sekitar 116.460 kilometer, menjadikannya planet kedua terbesar di tata surya kita setelah Jupiter. Ini sekitar 9,5 kali diameter Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Orbit Planet Saturnus",
+            "patterns": [
+                "Berapa lama waktu yang dibutuhkan Saturnus untuk mengorbit matahari?",
+                "orbit Saturnus berapa lama?",
+                "lama Saturnus mengorbit matahari?",
+                "Saturnus mengelilingi matahari berapa lama?"
+            ],
+            "responses": [
+                "Saturnus membutuhkan sekitar 29,5 tahun Bumi untuk menyelesaikan satu orbit penuh mengelilingi Matahari."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Hari Di Planet Saturnus",
+            "patterns": [
+                "Apakah hari di Saturnus sangat pendek?",
+                "berapa hari di Saturnus?",
+                "panjang hari di planet Saturnus",
+                "perbandingan hari di Saturnus dengan bumi?"
+            ],
+            "responses": [
+                "Saturnus memiliki periode rotasi yang relatif cepat, dengan satu hari di Saturnus berlangsung sekitar 10,7 jam Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Rotasi Planet Saturnus",
+            "patterns": [
+                "Bagaimana rotasi Saturnus berbeda dari planet-planet lain?",
+                "rotasi Saturnus?",
+                "rasio rotasi Saturnus?",
+                "berapa rotasi Saturnus?"
+            ],
+            "responses": [
+                "Saturnus berotasi dengan kecepatan yang cukup tinggi, tetapi tidak secepat Jupiter. Satu hari di Saturnus berlangsung sekitar 10,7 jam Bumi. Rotasi Saturnus tidak sinkron dengan orbitnya mengelilingi Matahari, seperti Jupiter. Rasio rotasi-orbit Saturnus adalah sekitar 10:29, yang berarti bahwa satu hari di Saturnus adalah sekitar 10 jam dan 29 menit Bumi, sedangkan satu tahun Saturnus adalah sekitar 29,5 tahun Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Komposisi Planet Saturnus",
+            "patterns": [
+                "Apa saja komposisi utama dari permukaan Saturnus?",
+                "komposisi permukaan Saturnus?",
+                "permukaan Saturnus seperti apa?",
+                "batuan yang terdapat di Saturnus apa?"
+            ],
+            "responses": [
+                "Saturnus adalah planet gas raksasa, yang berarti tidak memiliki permukaan padat seperti Bumi. Atmosfernya terutama terdiri dari hidrogen dan helium, dengan jejak gas-gas lainnya seperti metana dan amonia."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Inti Planet Saturnus",
+            "patterns": [
+                "Bagaimana inti planet Saturnus dibandingkan dengan inti Bumi?",
+                "inti planet Saturnus?",
+                "berapa besar inti planet Saturnus?",
+                "terdapat apa saja di inti planet Saturnus?"
+            ],
+            "responses": [
+                "Inti Saturnus diduga terdiri dari batuan, logam, dan es, dengan ukuran yang cukup besar. Namun, karena Saturnus adalah planet gas, intinya tidak jelas terlihat seperti planet-padat seperti Bumi. Inti Saturnus diperkirakan memiliki suhu dan tekanan yang sangat tinggi di pusatnya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Atmosfer Planet Saturnus",
+            "patterns": [
+                "Apakah Saturnus memiliki atmosfer?",
+                "atmosfer planet Saturnus?",
+                "apa saja atmosfer planet Saturnus?",
+                "bagaimana atmosfer planet Saturnus?",
+                "Apa yag ada di atmosfer Saturnus?"
+            ],
+            "responses": [
+                "Atmosfer Saturnus terdiri dari lapisan gas yang dalam dan tebal, terutama terdiri dari hidrogen dan helium, dengan jejak-jejak gas lainnya seperti metana dan amonia. Atmosfer Saturnus juga dikenal karena memiliki angin kencang dan badai besar, meskipun tidak sekuat badai di planet Jupiter."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Misi Planet Saturnus",
+            "patterns": [
+                "Apa saja misi yang telah diluncurkan untuk mempelajari Saturnus?",
+                "misi di planet Saturnus?",
+                "apa saja misi di Saturnus yang sudah dilakukan?",
+                "apakah ada misi ke planet Saturnus?"
+            ],
+            "responses": [
+                "Ada beberapa misi yang telah diluncurkan untuk mempelajari planet Saturnus dan cincinnya. Misi Cassini-Huygens, yang dioperasikan oleh NASA dan ESA, adalah misi terkenal yang mengorbit Saturnus selama lebih dari satu dekade sebelum mengakhiri misi pada tahun 2017. Misi ini memberikan wawasan mendalam tentang atmosfer, cincin, dan satelit Saturnus, termasuk penemuan air di bulan-bulan Saturnus. Misi masa depan termasuk misi Dragonfly NASA, yang akan mendarat di bulan Titan untuk menyelidiki kemungkinan kehidupan di sana."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Penemuan Planet Saturnus",
+            "patterns": [
+                "Apa penemuan terbaru tentang planet Saturnus dari misi-misi tersebut?",
+                "penemuan di planet Saturnus?",
+                "apa saja penemuan di Saturnus yang telah ditemukan?",
+                "apakah ada penemuan ke planet Saturnus?"
+            ],
+            "responses": [
+                "Penemuan terbaru tentang planet Saturnus telah mengungkap berbagai aspek baru dari planet gas raksasa ini dan cincin-cincinnya yang spektakuler. Misi Cassini-Huygens, yang dioperasikan oleh NASA dan ESA, memberikan wawasan mendalam tentang atmosfer, cincin, dan satelit Saturnus, termasuk penemuan air di bulan-bulan Saturnus. Misi ini juga menemukan beberapa fenomena menarik, seperti pola awan misterius di kutub utara Saturnus yang berbentuk hexagon dan badai raksasa di atmosfer planet tersebut. Selain itu, pengamatan terbaru dari teleskop dan misi antariksa telah membantu ilmuwan memahami lebih banyak tentang struktur internal dan komposisi Saturnus."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Ilmuwan Planet Saturnus",
+            "patterns": [
+                "Bagaimana para ilmuwan mempelajari Saturnus dari Bumi?",
+                "pengamatan ilmuwan ke planet Saturnus?",
+                "apa saja pengamatan yang dilakukan ke Saturnus?",
+                "apakah ada pengamatan yang dilakukan ke planet Saturnus?"
+            ],
+            "responses": [
+                "Para ilmuwan mempelajari Saturnus dari Bumi menggunakan teleskop optik dan radio, serta misi antariksa seperti Cassini-Huygens. Mereka menggunakan instrumen ilmiah untuk mengamati atmosfer, cincin, dan satelit Saturnus, serta menganalisis data dari pengamatan tersebut untuk memahami lebih banyak tentang sifat fisik dan kimia planet tersebut. Selain itu, penggunaan teleskop luar angkasa seperti Hubble dan James Webb juga memberikan wawasan yang berharga tentang Saturnus dan lingkungannya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Fenomena Geologi Planet Saturnus",
+            "patterns": [
+                "Apakah ada fenomena geologis unik yang terjadi di Saturnus?",
+                "fenomena khusus di planet Saturnus?",
+                "apakah pernah terjadi hal unik di planet Saturnus?",
+                "kondisi geologi planet Saturnus?"
+            ],
+            "responses": [
+                "Planet Saturnus memiliki beberapa fenomena geologis yang menarik, termasuk pola awan misterius di kutub utara yang berbentuk hexagon dan badai raksasa di atmosfer planet tersebut. Selain itu, cincin-cincin Saturnus adalah fenomena geologis yang sangat menarik, terdiri dari jutaan partikel es, batu, dan debu yang membentuk sistem cincin yang spektakuler di sekitar planet. Penelitian terbaru juga menunjukkan kemungkinan adanya aktivitas geologis di bulan-bulan Saturnus, seperti Enceladus, yang mungkin memiliki samudra air cair di bawah permukaannya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Perbandingan Planet Jupiter Dengan Saturnus",
+            "patterns": [
+                "Bagaimana Saturnus dibandingkan dengan Jupiter?",
+                "beda planet Saturnus dengan planet Jupiter?",
+                "perbandingan planet Saturnus dengan Jupiter?",
+                "Saturnus vs Jupiter?"
+            ],
+            "responses": [
+                "Saturnus adalah planet gas raksasa yang memiliki cincin-cincin yang spektakuler, sementara Jupiter lebih dikenal dengan badai raksasanya dan sistem bulannya yang luas. Secara ukuran, Jupiter lebih besar dan lebih masif daripada Saturnus. Namun, Saturnus memiliki cincin yang sangat mencolok dan merupakan salah satu ciri khasnya, sementara Jupiter memiliki cincin yang lebih tipis dan kurang mencolok. Kedua planet ini memiliki atmosfer yang terdiri dari hidrogen dan helium, tetapi komposisi kimianya mungkin sedikit berbeda."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Fakta Unik Saturnus",
+            "patterns": [
+                "Apa saja fakta unik tentang Saturnus yang jarang diketahui?",
+                "fakta unik apa saja dari planet Saturnus?",
+                "sebutkan fakta unik dari planet Saturnus?",
+                "hal unik Saturnus yang jarang diketahui?"
+            ],
+            "responses": [
+                "Saturnus adalah planet dengan cincin yang paling mencolok dalam tata surya kita. Cincin Saturnus terdiri dari jutaan partikel es, batu, dan debu yang membentuk sistem cincin yang spektakuler mengelilingi planet. Selain itu, Saturnus memiliki 82 satelit alami yang diketahui, termasuk Titan, yang merupakan satelit terbesar kedua di tata surya. Satelit-satelit ini memiliki beragam ukuran dan karakteristik, yang menjadikan Saturnus sebagai planet dengan sistem satelit yang paling besar dalam tata surya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Dewa Romawi Saturnus",
+            "patterns": [
+                "Mengapa Saturnus dinamai sesuai dengan dewa Romawi?",
+                "dewa romawi Saturnus?",
+                "apa itu dewa romawi Saturnus?",
+                "dewa romawi?"
+            ],
+            "responses": [
+                "Saturnus adalah nama planet keenam dari Matahari dalam tata surya kita, dan dinamai menurut dewa Romawi yang disebut Saturnus. Dalam mitologi Romawi, Saturnus adalah dewa pertanian dan panen, serta dianggap sebagai dewa waktu dan generasi emas. Penamaan planet ini mencerminkan posisinya dalam mitologi Romawi dan sejarah pengamatan astronomis."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Gravitasi Planet Saturnus",
+            "patterns": [
+                "Bagaimana gravitasi di Saturnus mempengaruhi berat benda?",
+                "gravitasi tentang Saturnus?",
+                "berat benda di Saturnus?",
+                "apakah gravitasi Saturnus sama dengan Bumi?"
+            ],
+            "responses": [
+                "Gravitasi di Saturnus merupakan kekuatan gravitasi yang dihasilkan oleh planet tersebut. Meskipun Saturnus memiliki massa yang besar, gravitasinya tidak sekuat gravitasi Bumi karena Saturnus lebih ringan daripada Bumi. Gravitasi di permukaan Saturnus adalah sekitar 91% dari gravitasi di permukaan Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Masa Depan Saturnus",
+            "patterns": [
+                "Apakah mungkin bagi manusia untuk tinggal di Saturnus di masa depan?",
+                "Saturnus di masa depan apakah bisa ditinggali?",
+                "masa depan Saturnus?",
+                "manusia di Saturnus apakah bisa?"
+            ],
+            "responses": [
+                "Kondisi di Saturnus sangat tidak ramah bagi manusia. Saturnus adalah planet gas raksasa yang tidak memiliki permukaan padat untuk ditinggali, dan atmosfernya terdiri dari gas-gas yang tidak dapat dihirup manusia. Selain itu, suhu dan tekanan di dalam Saturnus sangat ekstrem, dan tidak ada sumber air atau oksigen yang bisa mendukung kehidupan manusia. Jadi, saat ini dan dalam waktu yang dapat diprediksi, Saturnus tidak dapat dihuni oleh manusia."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Satelit Saturnus",
+            "patterns": [
+                "Berapa jumlah bulan ilik Saturnus",
+                "Bulan milik Saturnus?",
+                "Satelit milik Saturnus",
+                "Berapa banyak Satelit alami milik Saturnus?"
+            ],
+            "responses": [
+                "Saturnus memiliki setidaknya 82 satelit alami yang diketahui. Satelit terbesar dan yang paling dikenal adalah Titan, yang juga merupakan satelit terbesar kedua di tata surya setelah Ganymede, bulan Jupiter. Selain itu, beberapa satelit lainnya yang menarik termasuk Enceladus, yang memiliki aktivitas geologis yang menarik, dan Mimas, yang memiliki fitur permukaan yang mencolok seperti 'Dentuman'."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Cincin Saturnus",
+            "patterns": [
+                "Apakah Saturnus punya Cincin?",
+                "Apa cincin Saturnus?"
+            ],
+            "responses": [
+                "Saturnus memiliki sistem cincin yang sangat spektakuler yang terdiri dari jutaan partikel debu, es, dan batu. Cincin-cincin ini membentang luas di sekitar planet, memberikan pemandangan yang sangat indah dan memukau ketika diamati dari Bumi atau dari wahana antariksa."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Tentang Neptunus",
+            "patterns": [
+                "Apa itu planet Neptunus?",
+                "Planet Neptunus?",
+                "Tentang Neptunus?",
+                "Jelaskan mengenai planet Neptunus?"
+            ],
+            "responses": [
+                "Neptunus adalah planet terluar di tata surya kita dan merupakan salah satu planet gas raksasa. Ini memiliki atmosfer yang kaya akan gas, termasuk metana yang memberikan warna biru khasnya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Sistem Cincin Neptunus",
+            "patterns": [
+                "Apakah Neptunus memiliki cincin?",
+                "Cincin Neptunus?",
+                "Sistem cincin di Neptunus?",
+                "Detail cincin Neptunus?"
+            ],
+            "responses": [
+                "Ya, Neptunus memiliki sistem cincin yang tipis. Cincin-cincin ini terdiri dari partikel debu dan es yang tersebar luas di sekitar planet."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Satelit Neptunus",
+            "patterns": [
+                "Berapa banyak satelit alami yang dimiliki Neptunus?",
+                "Satelit Neptunus?",
+                "Nama-nama satelit Neptunus?",
+                "Informasi tentang satelit Neptunus?"
+            ],
+            "responses": [
+                "Neptunus memiliki sejumlah satelit alami yang diketahui, termasuk Triton, yang merupakan satelit terbesar dan paling menonjol. Triton dikenal karena memiliki geyser yang memancarkan nitrogen cair di atmosfernya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Kecepatan Angin di Neptunus",
+            "patterns": [
+                "Berapa kecepatan angin di Neptunus?",
+                "Angin di Neptunus?",
+                "Kecepatan angin tertinggi di Neptunus?",
+                "Fenomena angin di Neptunus?"
+            ],
+            "responses": [
+                "Angin di Neptunus bisa mencapai kecepatan yang sangat tinggi, bahkan lebih dari 1.000 kilometer per jam. Ini menjadikannya salah satu tempat dengan angin tercepat di tata surya kita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Gravitasi di Neptunus",
+            "patterns": [
+                "Bagaimana gravitasi di Neptunus?",
+                "Gravitasi Neptunus?",
+                "Berat badan di Neptunus?",
+                "Faktor gravitasi Neptunus?"
+            ],
+            "responses": [
+                "Gravitasi di Neptunus sekitar 1,14 kali lebih kuat dari gravitasi di Bumi. Ini berarti bahwa berat badan seseorang akan menjadi lebih berat di Neptunus daripada di Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Penamaan Neptunus",
+            "patterns": [
+                "Mengapa Neptunus dinamai Neptunus?",
+                "Sejarah penamaan Neptunus?",
+                "Asal usul nama Neptunus?",
+                "Kenapa planet Neptunus dinamai seperti itu?"
+            ],
+            "responses": [
+                "Neptunus dinamai sesuai dengan dewa lautan dalam mitologi Romawi, yang disebut Neptunus. Nama ini dipilih untuk mencerminkan warna biru laut planet tersebut."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Letak Uranus dalam Tata Surya",
+            "patterns": [
+                "Dimanakah letak Uranus dalam tata surya?",
+                "Uranus di tata surya?",
+                "Posisi Uranus di tata surya?",
+                "Letak Uranus relatif terhadap planet lain?"
+            ],
+            "responses": [
+                "Uranus terletak di antara Saturnus dan Neptunus dalam tata surya kita. Ini adalah planet ketujuh dari Matahari dan terkenal dengan warna biru kehijauannya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Ukuran Uranus",
+            "patterns": [
+                "Seberapa besar Uranus?",
+                "Ukuran planet Uranus?",
+                "Perbandingan ukuran Uranus dengan Bumi?",
+                "Diameter Uranus?"
+            ],
+            "responses": [
+                "Uranus memiliki diameter sekitar 50.724 kilometer, menjadikannya salah satu planet terbesar di tata surya kita. Ini sekitar 4 kali diameter Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Rotasi Uranus",
+            "patterns": [
+                "Bagaimana rotasi Uranus?",
+                "Periode rotasi Uranus?",
+                "Rotasi planet Uranus?",
+                "Berapa lama satu hari di Uranus?"
+            ],
+            "responses": [
+                "Rotasi Uranus unik karena kemiringan sumbu rotasinya hampir 98 derajat, menyebabkan planet ini berputar 'di sisinya'. Satu hari di Uranus berlangsung sekitar 17,24 jam Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Komposisi Atmosfer Uranus",
+            "patterns": [
+                "Apa saja yang terdapat di atmosfer Uranus?",
+                "Komposisi atmosfer Uranus?",
+                "Gas-gas di atmosfer Uranus?",
+                "Unsur utama di atmosfer Uranus?"
+            ],
+            "responses": [
+                "Atmosfer Uranus terdiri terutama dari hidrogen dan helium, dengan jumlah yang signifikan dari metana yang memberikan warna biru kehijauannya yang khas. Ada juga jejak gas lainnya, seperti amonia dan air."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Satelit Uranus",
+            "patterns": [
+                "Berapa banyak satelit alami yang dimiliki Uranus?",
+                "Satelit Uranus?",
+                "Nama-nama satelit Uranus?",
+                "Informasi tentang satelit Uranus?"
+            ],
+            "responses": [
+                "Uranus memiliki sejumlah satelit alami yang diketahui, meskipun tidak sebanyak planet lain seperti Jupiter atau Saturnus. Satelit terbesar adalah Miranda, Titania, dan Oberon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Misi Ke Neptunus",
+            "patterns": [
+                "Apakah ada misi yang dikirim ke Neptunus?",
+                "Misi luar angkasa ke Neptunus?",
+                "Penelitian tentang Neptunus?",
+                "Apakah ada eksplorasi Neptunus?"
+            ],
+            "responses": [
+                "Sejauh ini, Voyager 2 adalah satu-satunya wahana antariksa yang telah terbang melewati Neptunus. Voyager 2 memberikan banyak data tentang atmosfer, cincin, dan satelit Neptunus pada tahun 1989."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Komposisi Neptunus",
+            "patterns": [
+                "Apa komposisi utama Neptunus?",
+                "Unsur-unsur di Neptunus?",
+                "Terbuat dari apa Neptunus?",
+                "Bahan pembentuk Neptunus?"
+            ],
+            "responses": [
+                "Neptunus terdiri terutama dari hidrogen, helium, dan metana. Inti planet ini kemungkinan besar terdiri dari batuan dan es."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Struktur Internal Neptunus",
+            "patterns": [
+                "Bagaimana struktur internal Neptunus?",
+                "Lapisan di dalam Neptunus?",
+                "Inti Neptunus terdiri dari apa?",
+                "Detail tentang struktur dalam Neptunus?"
+            ],
+            "responses": [
+                "Struktur internal Neptunus terdiri dari inti berbatu yang dikelilingi oleh mantel air, amonia, dan metana yang terkompresi, serta lapisan atmosfer luar yang sebagian besar terdiri dari hidrogen dan helium."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Magnetosfer Neptunus",
+            "patterns": [
+                "Apakah Neptunus memiliki magnetosfer?",
+                "Magnetosfer di Neptunus?",
+                "Medan magnet Neptunus?",
+                "Bagaimana magnetosfer Neptunus?"
+            ],
+            "responses": [
+                "Neptunus memiliki magnetosfer yang kuat, yang miring sekitar 47 derajat dari sumbu rotasinya dan tidak berpusat pada pusat planet. Ini menciptakan medan magnet yang kompleks dan dinamis."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Penemuan Neptunus",
+            "patterns": [
+                "Kapan Neptunus ditemukan?",
+                "Siapa yang menemukan Neptunus?",
+                "Sejarah penemuan Neptunus?",
+                "Penemu Neptunus?"
+            ],
+            "responses": [
+                "Neptunus ditemukan pada 23 September 1846 oleh Johann Galle dan Heinrich d'Arrest berdasarkan prediksi matematika oleh Urbain Le Verrier dan John Couch Adams."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Fenomena Cuaca di Neptunus",
+            "patterns": [
+                "Apakah ada fenomena cuaca unik di Neptunus?",
+                "Cuaca di Neptunus?",
+                "Badai di Neptunus?",
+                "Fenomena atmosfer di Neptunus?"
+            ],
+            "responses": [
+                "Neptunus dikenal dengan cuaca ekstremnya, termasuk angin yang sangat kencang dan badai besar seperti Bintik Gelap Besar, yang mirip dengan Bintik Merah Besar di Jupiter."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Tentang Uranus",
+            "patterns": [
+                "Apa itu planet Uranus?",
+                "Planet Uranus?",
+                "Tentang Uranus?",
+                "Jelaskan mengenai planet Uranus?"
+            ],
+            "responses": [
+                "Uranus adalah planet ketujuh dari Matahari dan merupakan salah satu planet raksasa es. Ini memiliki atmosfer yang mengandung hidrogen, helium, dan metana, yang memberikan warna biru-kehijauan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Sumbu Rotasi Uranus",
+            "patterns": [
+                "Bagaimana sumbu rotasi Uranus?",
+                "Mengapa Uranus berputar miring?",
+                "Kemiringan sumbu Uranus?",
+                "Rotasi unik Uranus?"
+            ],
+            "responses": [
+                "Sumbu rotasi Uranus miring hampir 98 derajat, yang berarti planet ini berputar hampir sejajar dengan bidang orbitnya. Ini kemungkinan hasil dari tabrakan dengan objek besar di masa lalu."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Struktur Internal Uranus",
+            "patterns": [
+                "Bagaimana struktur internal Uranus?",
+                "Lapisan di dalam Uranus?",
+                "Inti Uranus terdiri dari apa?",
+                "Detail tentang struktur dalam Uranus?"
+            ],
+            "responses": [
+                "Struktur internal Uranus mirip dengan Neptunus, dengan inti berbatu yang dikelilingi oleh mantel air, amonia, dan metana yang terkompresi, serta lapisan atmosfer luar yang terutama terdiri dari hidrogen dan helium."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Penemuan Uranus",
+            "patterns": [
+                "Kapan Uranus ditemukan?",
+                "Siapa yang menemukan Uranus?",
+                "Sejarah penemuan Uranus?",
+                "Penemu Uranus?"
+            ],
+            "responses": [
+                "Uranus ditemukan pada 13 Maret 1781 oleh William Herschel. Penemuan ini memperluas batas tata surya yang diketahui pada saat itu."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Magnetosfer Uranus",
+            "patterns": [
+                "Apakah Uranus memiliki magnetosfer?",
+                "Magnetosfer di Uranus?",
+                "Medan magnet Uranus?",
+                "Bagaimana magnetosfer Uranus?"
+            ],
+            "responses": [
+                "Uranus memiliki magnetosfer yang miring sekitar 59 derajat dari sumbu rotasinya dan tidak berpusat pada pusat planet. Ini menciptakan medan magnet yang unik dan dinamis."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Sistem Cincin Uranus",
+            "patterns": [
+                "Apakah Uranus memiliki cincin?",
+                "Cincin Uranus?",
+                "Sistem cincin di Uranus?",
+                "Detail cincin Uranus?"
+            ],
+            "responses": [
+                "Ya, Uranus memiliki sistem cincin yang terdiri dari 13 cincin yang dikenal. Cincin-cincin ini terdiri dari partikel debu dan es yang lebih gelap dan lebih tipis daripada cincin Saturnus."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Satelit Uranus",
+            "patterns": [
+                "Berapa banyak satelit alami yang dimiliki Uranus?",
+                "Satelit Uranus?",
+                "Nama-nama satelit Uranus?",
+                "Informasi tentang satelit Uranus?"
+            ],
+            "responses": [
+                "Uranus memiliki 27 satelit alami yang diketahui. Satelit terbesar dan paling menonjol termasuk Miranda, Ariel, Umbriel, Titania, dan Oberon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Misi Ke Uranus",
+            "patterns": [
+                "Apakah ada misi yang dikirim ke Uranus?",
+                "Misi luar angkasa ke Uranus?",
+                "Penelitian tentang Uranus?",
+                "Apakah ada eksplorasi Uranus?"
+            ],
+            "responses": [
+                "Sejauh ini, Voyager 2 adalah satu-satunya wahana antariksa yang telah terbang melewati Uranus. Voyager 2 memberikan banyak data tentang atmosfer, cincin, dan satelit Uranus pada tahun 1986."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Fenomena Cuaca di Uranus",
+            "patterns": [
+                "Apakah ada fenomena cuaca unik di Uranus?",
+                "Cuaca di Uranus?",
+                "Badai di Uranus?",
+                "Fenomena atmosfer di Uranus?"
+            ],
+            "responses": [
+                "Uranus memiliki cuaca yang relatif tenang dibandingkan dengan Neptunus, tetapi angin kencang dan badai masih terjadi. Uranus juga menunjukkan variasi musiman yang signifikan karena kemiringan sumbu rotasinya yang ekstrem."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Massa Neptunus",
+            "patterns": [
+                "Berapa massa Neptunus?",
+                "Massa planet Neptunus?",
+                "Perbandingan massa Neptunus dengan Bumi?",
+                "Detail massa Neptunus?"
+            ],
+            "responses": [
+                "Massa Neptunus sekitar 17 kali massa Bumi, menjadikannya salah satu planet terbesar di tata surya kita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Diameter Neptunus",
+            "patterns": [
+                "Berapa diameter Neptunus?",
+                "Ukuran planet Neptunus?",
+                "Perbandingan diameter Neptunus dengan Bumi?",
+                "Detail diameter Neptunus?"
+            ],
+            "responses": [
+                "Diameter Neptunus sekitar 49.244 kilometer, menjadikannya planet terbesar keempat di tata surya kita berdasarkan diameter."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Periode Orbit Neptunus",
+            "patterns": [
+                "Berapa lama waktu yang dibutuhkan Neptunus untuk mengorbit Matahari?",
+                "Periode orbit Neptunus?",
+                "Orbit Neptunus mengelilingi Matahari?",
+                "Detail tentang orbit Neptunus?"
+            ],
+            "responses": [
+                "Neptunus membutuhkan sekitar 165 tahun Bumi untuk menyelesaikan satu kali orbit mengelilingi Matahari. Ini karena Neptunus berada pada jarak yang sangat jauh dari Matahari."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Suhu di Neptunus",
+            "patterns": [
+                "Berapa suhu di Neptunus?",
+                "Suhu permukaan Neptunus?",
+                "Iklim di Neptunus?",
+                "Suhu terendah di Neptunus?"
+            ],
+            "responses": [
+                "Suhu di Neptunus sangat dingin, dengan suhu rata-rata di awan teratas sekitar -214 derajat Celsius. Ini membuat Neptunus salah satu tempat terdingin di tata surya kita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Ciri Fisik Neptunus",
+            "patterns": [
+                "Apa saja ciri fisik Neptunus?",
+                "Karakteristik Neptunus?",
+                "Ciri utama planet Neptunus?",
+                "Detail fisik Neptunus?"
+            ],
+            "responses": [
+                "Neptunus adalah planet biru yang memiliki diameter sekitar 49.244 kilometer. Atmosfernya didominasi oleh hidrogen, helium, dan metana. Planet ini memiliki sistem cincin dan banyak satelit alami."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Cincin Uranus",
+            "patterns": [
+                "Berapa banyak cincin yang dimiliki Uranus?",
+                "Sistem cincin Uranus?",
+                "Detail tentang cincin Uranus?",
+                "Komposisi cincin Uranus?"
+            ],
+            "responses": [
+                "Uranus memiliki 13 cincin yang diketahui, yang terdiri dari partikel debu dan es. Cincin-cincin ini lebih gelap dan lebih tipis dibandingkan cincin Saturnus."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Ukuran Uranus",
+            "patterns": [
+                "Seberapa besar Uranus?",
+                "Ukuran planet Uranus?",
+                "Perbandingan ukuran Uranus dengan Bumi?",
+                "Diameter Uranus?"
+            ],
+            "responses": [
+                "Uranus memiliki diameter sekitar 50.724 kilometer, menjadikannya sekitar 4 kali diameter Bumi dan planet terbesar ketiga di tata surya berdasarkan diameter."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Kecepatan Angin di Uranus",
+            "patterns": [
+                "Berapa kecepatan angin di Uranus?",
+                "Angin di Uranus?",
+                "Kecepatan angin tertinggi di Uranus?",
+                "Fenomena angin di Uranus?"
+            ],
+            "responses": [
+                "Kecepatan angin di Uranus bisa mencapai hingga 900 kilometer per jam. Angin ini bertiup di atmosfer atas dan berkontribusi pada fenomena cuaca unik di planet tersebut."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Gravitasi di Uranus",
+            "patterns": [
+                "Bagaimana gravitasi di Uranus?",
+                "Gravitasi Uranus?",
+                "Berat badan di Uranus?",
+                "Faktor gravitasi Uranus?"
+            ],
+            "responses": [
+                "Gravitasi di Uranus sekitar 0,89 kali gravitasi di Bumi. Ini berarti bahwa berat badan seseorang akan menjadi sedikit lebih ringan di Uranus daripada di Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Misi Ke Uranus",
+            "patterns": [
+                "Apakah ada misi yang dikirim ke Uranus?",
+                "Misi luar angkasa ke Uranus?",
+                "Penelitian tentang Uranus?",
+                "Apakah ada eksplorasi Uranus?"
+            ],
+            "responses": [
+                "Voyager 2 adalah satu-satunya wahana antariksa yang telah mengunjungi Uranus. Voyager 2 mengirimkan banyak data tentang atmosfer, cincin, dan satelit Uranus pada tahun 1986."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Bintik Gelap Besar Neptunus",
+            "patterns": [
+                "Apa itu Bintik Gelap Besar di Neptunus?",
+                "Fenomena Bintik Gelap Besar di Neptunus?",
+                "Badai di Neptunus?",
+                "Detail tentang Bintik Gelap Besar?"
+            ],
+            "responses": [
+                "Bintik Gelap Besar adalah badai besar di atmosfer Neptunus, mirip dengan Bintik Merah Besar di Jupiter. Badai ini pertama kali ditemukan oleh Voyager 2 pada tahun 1989."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Revolusi Uranus",
+            "patterns": [
+                "Berapa lama waktu yang dibutuhkan Uranus untuk mengelilingi Matahari?",
+                "Periode orbit Uranus?",
+                "Orbit Uranus mengelilingi Matahari?",
+                "Detail tentang orbit Uranus?"
+            ],
+            "responses": [
+                "Uranus membutuhkan sekitar 84 tahun Bumi untuk menyelesaikan satu kali orbit mengelilingi Matahari. Ini karena jaraknya yang sangat jauh dari Matahari."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Suhu di Uranus",
+            "patterns": [
+                "Berapa suhu di Uranus?",
+                "Suhu permukaan Uranus?",
+                "Iklim di Uranus?",
+                "Suhu terendah di Uranus?"
+            ],
+            "responses": [
+                "Suhu di Uranus sangat dingin, dengan suhu rata-rata di atmosfer atas sekitar -224 derajat Celsius, menjadikannya salah satu planet terdingin di tata surya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Fenomena Musiman di Uranus",
+            "patterns": [
+                "Bagaimana fenomena musiman di Uranus?",
+                "Musim di Uranus?",
+                "Perubahan musim di Uranus?",
+                "Detail fenomena musiman di Uranus?"
+            ],
+            "responses": [
+                "Karena kemiringan sumbu rotasi Uranus yang ekstrem, planet ini mengalami musim yang sangat ekstrem dan berkepanjangan, dengan setiap musim berlangsung sekitar 21 tahun Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Massa Uranus",
+            "patterns": [
+                "Berapa massa Uranus?",
+                "Massa planet Uranus?",
+                "Perbandingan massa Uranus dengan Bumi?",
+                "Detail massa Uranus?"
+            ],
+            "responses": [
+                "Massa Uranus sekitar 14,5 kali massa Bumi, menjadikannya salah satu planet terbesar di tata surya kita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Komposisi Uranus",
+            "patterns": [
+                "Apa komposisi utama Uranus?",
+                "Unsur-unsur di Uranus?",
+                "Terbuat dari apa Uranus?",
+                "Bahan pembentuk Uranus?"
+            ],
+            "responses": [
+                "Uranus terdiri terutama dari hidrogen, helium, dan metana. Inti planet ini kemungkinan besar terdiri dari batuan dan es, dikelilingi oleh mantel air, amonia, dan metana yang terkompresi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Aktivitas Vulkanik di Triton",
+            "patterns": [
+                "Apakah Triton memiliki aktivitas vulkanik?",
+                "Vulkanisme di Triton?",
+                "Geyser di Triton?",
+                "Detail tentang aktivitas vulkanik di Triton?"
+            ],
+            "responses": [
+                "Triton, salah satu satelit terbesar Neptunus, memiliki aktivitas vulkanik yang unik, dengan geyser yang memancarkan nitrogen cair dari permukaannya. Fenomena ini pertama kali diamati oleh Voyager 2."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Orbit Satelit Neptunus",
+            "patterns": [
+                "Bagaimana orbit satelit-satelit Neptunus?",
+                "Orbit Triton?",
+                "Satelit Neptunus mengorbit bagaimana?",
+                "Detail orbit satelit Neptunus?"
+            ],
+            "responses": [
+                "Satelit-satelit Neptunus memiliki orbit yang beragam, dengan Triton memiliki orbit retrograde, yang berarti berlawanan arah dengan rotasi Neptunus. Orbit ini menunjukkan bahwa Triton kemungkinan adalah objek yang ditangkap oleh gravitasi Neptunus."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Fakta Menarik Tentang Neptunus",
+            "patterns": [
+                "Apa saja fakta menarik tentang Neptunus?",
+                "Fakta unik Neptunus?",
+                "Hal menarik tentang Neptunus?",
+                "Fakta-fakta planet Neptunus?"
+            ],
+            "responses": [
+                "Neptunus adalah planet terluar di tata surya kita dan memiliki angin tercepat yang pernah diukur, mencapai lebih dari 2.100 kilometer per jam. Ini juga memiliki 14 satelit yang diketahui, termasuk Triton yang memiliki geyser nitrogen."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Fakta Menarik Tentang Uranus",
+            "patterns": [
+                "Apa saja fakta menarik tentang Uranus?",
+                "Fakta unik Uranus?",
+                "Hal menarik tentang Uranus?",
+                "Fakta-fakta planet Uranus?"
+            ],
+            "responses": [
+                "Uranus memiliki kemiringan sumbu rotasi hampir 98 derajat, yang membuat planet ini berputar 'di sisinya'. Ini menyebabkan musim yang ekstrem dan berkepanjangan, dengan setiap musim berlangsung sekitar 21 tahun Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Periode Rotasi Neptunus",
+            "patterns": [
+                "Berapa lama satu hari di Neptunus?",
+                "Periode rotasi Neptunus?",
+                "Rotasi Neptunus?",
+                "Berapa jam dalam satu hari di Neptunus?"
+            ],
+            "responses": [
+                "Satu hari di Neptunus berlangsung sekitar 16 jam Bumi. Ini karena rotasi Neptunus yang relatif cepat."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Neptunus dan Galileo",
+            "patterns": [
+                "Apakah Galileo mengetahui tentang Neptunus?",
+                "Galileo dan Neptunus?",
+                "Kaitan Galileo dengan penemuan Neptunus?",
+                "Apakah Galileo melihat Neptunus?"
+            ],
+            "responses": [
+                "Galileo Galilei mengamati Neptunus pada tahun 1612 dan 1613, tetapi ia mengira bahwa Neptunus adalah bintang tetap, bukan planet."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Komposisi Atmosfer Neptunus",
+            "patterns": [
+                "Apa saja yang terdapat di atmosfer Neptunus?",
+                "Komposisi atmosfer Neptunus?",
+                "Gas-gas di atmosfer Neptunus?",
+                "Unsur utama di atmosfer Neptunus?"
+            ],
+            "responses": [
+                "Atmosfer Neptunus terdiri terutama dari hidrogen, helium, dan metana, yang memberikan planet ini warna biru yang khas."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Densitas Neptunus",
+            "patterns": [
+                "Berapa densitas Neptunus?",
+                "Kepadatan Neptunus?",
+                "Densitas planet Neptunus?",
+                "Detail kepadatan Neptunus?"
+            ],
+            "responses": [
+                "Densitas Neptunus adalah sekitar 1,64 gram per sentimeter kubik, yang lebih tinggi dibandingkan dengan Jupiter tetapi lebih rendah dibandingkan Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Densitas Uranus",
+            "patterns": [
+                "Berapa densitas Uranus?",
+                "Kepadatan Uranus?",
+                "Densitas planet Uranus?",
+                "Detail kepadatan Uranus?"
+            ],
+            "responses": [
+                "Densitas Uranus adalah sekitar 1,27 gram per sentimeter kubik, yang menunjukkan bahwa planet ini terdiri dari unsur-unsur yang lebih ringan dibandingkan Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Periode Revolusi Uranus",
+            "patterns": [
+                "Berapa lama satu tahun di Uranus?",
+                "Periode revolusi Uranus?",
+                "Revolusi Uranus?",
+                "Berapa lama Uranus mengelilingi Matahari?"
+            ],
+            "responses": [
+                "Uranus membutuhkan sekitar 84 tahun Bumi untuk menyelesaikan satu kali revolusi mengelilingi Matahari."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Periode Rotasi Uranus",
+            "patterns": [
+                "Berapa lama satu hari di Uranus?",
+                "Periode rotasi Uranus?",
+                "Rotasi Uranus?",
+                "Berapa jam dalam satu hari di Uranus?"
+            ],
+            "responses": [
+                "Satu hari di Uranus berlangsung sekitar 17 jam dan 14 menit waktu Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Orbit Triton",
+            "patterns": [
+                "Bagaimana orbit Triton?",
+                "Orbit retrograde Triton?",
+                "Mengapa Triton memiliki orbit retrograde?",
+                "Detail tentang orbit Triton?"
+            ],
+            "responses": [
+                "Triton, satelit terbesar Neptunus, memiliki orbit retrograde, artinya berlawanan arah dengan rotasi Neptunus. Ini menunjukkan bahwa Triton kemungkinan besar adalah objek yang ditangkap oleh gravitasi Neptunus."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Temperatur Triton",
+            "patterns": [
+                "Berapa suhu di Triton?",
+                "Suhu permukaan Triton?",
+                "Iklim di Triton?",
+                "Temperatur di Triton?"
+            ],
+            "responses": [
+                "Temperatur di Triton sangat dingin, dengan suhu rata-rata di permukaan sekitar -235 derajat Celsius, menjadikannya salah satu objek terdingin di tata surya kita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Miranda",
+            "patterns": [
+                "Apa itu Miranda?",
+                "Miranda satelit Uranus?",
+                "Informasi tentang Miranda?",
+                "Detail mengenai Miranda?"
+            ],
+            "responses": [
+                "Miranda adalah salah satu satelit Uranus yang paling menarik karena permukaannya yang beragam dan penuh dengan tebing tinggi serta lembah dalam, yang menunjukkan aktivitas geologis yang kompleks."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Titania",
+            "patterns": [
+                "Apa itu Titania?",
+                "Titania satelit Uranus?",
+                "Informasi tentang Titania?",
+                "Detail mengenai Titania?"
+            ],
+            "responses": [
+                "Titania adalah satelit terbesar Uranus, dengan diameter sekitar 1.578 kilometer. Permukaannya terdiri dari campuran es dan batu, dan menunjukkan tanda-tanda aktivitas geologis di masa lalu."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Cincin Adams",
+            "patterns": [
+                "Apa itu Cincin Adams?",
+                "Informasi tentang Cincin Adams di Neptunus?",
+                "Cincin Adams Neptunus?",
+                "Detail mengenai Cincin Adams?"
+            ],
+            "responses": [
+                "Cincin Adams adalah salah satu cincin Neptunus yang paling terkenal, dinamai sesuai dengan John Couch Adams yang memprediksi keberadaan Neptunus. Cincin ini terdiri dari partikel debu dan es."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Lapisan Es Uranus",
+            "patterns": [
+                "Apakah Uranus memiliki lapisan es?",
+                "Es di Uranus?",
+                "Lapisan es pada Uranus?",
+                "Informasi tentang es di Uranus?"
+            ],
+            "responses": [
+                "Uranus memiliki lapisan es di dalamnya, terutama terdiri dari air, amonia, dan metana yang terkompresi. Ini memberikan Uranus karakteristik planet raksasa es."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Warna Neptunus",
+            "patterns": [
+                "Mengapa Neptunus berwarna biru?",
+                "Warna Neptunus?",
+                "Apa yang menyebabkan warna biru Neptunus?",
+                "Detail tentang warna Neptunus?"
+            ],
+            "responses": [
+                "Warna biru Neptunus disebabkan oleh adanya metana dalam atmosfernya, yang menyerap cahaya merah dan memantulkan cahaya biru."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Warna Uranus",
+            "patterns": [
+                "Mengapa Uranus berwarna biru kehijauan?",
+                "Warna Uranus?",
+                "Apa yang menyebabkan warna biru kehijauan Uranus?",
+                "Detail tentang warna Uranus?"
+            ],
+            "responses": [
+                "Warna biru kehijauan Uranus disebabkan oleh adanya metana dalam atmosfernya, yang menyerap cahaya merah dan memantulkan cahaya biru-hijau."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Kehidupan di Neptunus",
+            "patterns": [
+                "Apakah ada kemungkinan kehidupan di Neptunus?",
+                "Kehidupan di Neptunus?",
+                "Bisakah Neptunus mendukung kehidupan?",
+                "Informasi tentang kemungkinan kehidupan di Neptunus?"
+            ],
+            "responses": [
+                "Neptunus memiliki kondisi yang sangat ekstrem dengan suhu yang sangat dingin dan angin kencang, sehingga kemungkinan adanya kehidupan seperti yang kita kenal sangatlah kecil."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Kehidupan di Uranus",
+            "patterns": [
+                "Apakah ada kemungkinan kehidupan di Uranus?",
+                "Kehidupan di Uranus?",
+                "Bisakah Uranus mendukung kehidupan?",
+                "Informasi tentang kemungkinan kehidupan di Uranus?"
+            ],
+            "responses": [
+                "Seperti Neptunus, Uranus memiliki kondisi yang sangat ekstrem dengan suhu yang sangat dingin dan atmosfer yang tidak mendukung kehidupan seperti yang kita kenal."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Penelitian Terkini tentang Neptunus",
+            "patterns": [
+                "Apa penelitian terkini tentang Neptunus?",
+                "Penemuan baru tentang Neptunus?",
+                "Studi terbaru tentang Neptunus?",
+                "Informasi terbaru tentang Neptunus?"
+            ],
+            "responses": [
+                "Penelitian terbaru tentang Neptunus melibatkan observasi menggunakan teleskop canggih dan wahana antariksa yang akan datang untuk mempelajari atmosfer, cincin, dan satelitnya dengan lebih detail."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Penelitian Terkini tentang Uranus",
+            "patterns": [
+                "Apa penelitian terkini tentang Uranus?",
+                "Penemuan baru tentang Uranus?",
+                "Studi terbaru tentang Uranus?",
+                "Informasi terbaru tentang Uranus?"
+            ],
+            "responses": [
+                "Penelitian terbaru tentang Uranus mencakup observasi dari teleskop ruang angkasa dan perencanaan misi masa depan untuk mempelajari struktur internal Uranus, atmosfer, dan cuaca planet ini dengan lebih detail."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Neptunus dan Eksoplanet",
+            "patterns": [
+                "Apakah ada eksoplanet yang mirip Neptunus?",
+                "Eksoplanet yang mirip Neptunus?",
+                "Planet ekstrasolar seperti Neptunus?",
+                "Eksoplanet yang memiliki karakteristik seperti Neptunus?"
+            ],
+            "responses": [
+                "Ada banyak eksoplanet yang ditemukan oleh para astronom yang memiliki karakteristik mirip dengan Neptunus, terutama yang berada dalam kategori planet es raksasa. Studi tentang eksoplanet ini memberikan wawasan tambahan tentang pembentukan dan evolusi planet dalam tata surya kita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Uranus dan Eksoplanet",
+            "patterns": [
+                "Apakah ada eksoplanet yang mirip Uranus?",
+                "Eksoplanet yang mirip Uranus?",
+                "Planet ekstrasolar seperti Uranus?",
+                "Eksoplanet yang memiliki karakteristik seperti Uranus?"
+            ],
+            "responses": [
+                "Banyak eksoplanet yang ditemukan memiliki kemiripan dengan Uranus, terutama dalam hal komposisi dan ukuran. Eksoplanet jenis ini sering disebut sebagai planet raksasa es dan memberikan banyak informasi tentang keanekaragaman planet di luar tata surya kita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Satelit Kecil Neptunus",
+            "patterns": [
+                "Apa saja satelit kecil Neptunus?",
+                "Satelit kecil di sekitar Neptunus?",
+                "Daftar satelit kecil Neptunus?",
+                "Informasi tentang satelit kecil Neptunus?"
+            ],
+            "responses": [
+                "Selain Triton, Neptunus memiliki banyak satelit kecil lainnya, seperti Nereid, Proteus, Larissa, Galatea, Despina, dan Thalassa. Satelit-satelit ini memiliki berbagai karakteristik unik yang masih terus dipelajari."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Satelit Kecil Uranus",
+            "patterns": [
+                "Apa saja satelit kecil Uranus?",
+                "Satelit kecil di sekitar Uranus?",
+                "Daftar satelit kecil Uranus?",
+                "Informasi tentang satelit kecil Uranus?"
+            ],
+            "responses": [
+                "Uranus memiliki beberapa satelit kecil selain yang besar seperti Miranda dan Titania. Beberapa satelit kecil Uranus termasuk Oberon, Umbriel, Ariel, dan banyak lainnya. Satelit-satelit ini menawarkan wawasan menarik tentang komposisi dan dinamika tata surya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Neptunus dalam Mitologi",
+            "patterns": [
+                "Apa peran Neptunus dalam mitologi?",
+                "Mitologi tentang Neptunus?",
+                "Neptunus dalam legenda?",
+                "Dewa Neptunus dalam mitologi?"
+            ],
+            "responses": [
+                "Dalam mitologi Romawi, Neptunus adalah dewa laut. Ia setara dengan dewa Poseidon dalam mitologi Yunani. Nama planet ini diberikan karena warna birunya yang menyerupai lautan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Uranus dalam Mitologi",
+            "patterns": [
+                "Apa peran Uranus dalam mitologi?",
+                "Mitologi tentang Uranus?",
+                "Uranus dalam legenda?",
+                "Dewa Uranus dalam mitologi?"
+            ],
+            "responses": [
+                "Dalam mitologi Yunani, Uranus adalah personifikasi langit dan merupakan salah satu dewa primordial. Nama planet ini dipilih untuk mencerminkan posisi Uranus yang tinggi di tata surya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Formasi Neptunus",
+            "patterns": [
+                "Bagaimana Neptunus terbentuk?",
+                "Proses pembentukan Neptunus?",
+                "Asal-usul planet Neptunus?",
+                "Teori pembentukan Neptunus?"
+            ],
+            "responses": [
+                "Neptunus terbentuk sekitar 4,5 miliar tahun yang lalu dari nebula matahari, yang merupakan awan gas dan debu yang tersisa dari pembentukan Matahari. Proses ini melibatkan akresi material dan pendinginan untuk membentuk inti es dan atmosfer tebal."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Formasi Uranus",
+            "patterns": [
+                "Bagaimana Uranus terbentuk?",
+                "Proses pembentukan Uranus?",
+                "Asal-usul planet Uranus?",
+                "Teori pembentukan Uranus?"
+            ],
+            "responses": [
+                "Uranus terbentuk dari nebula matahari sekitar 4,5 miliar tahun yang lalu. Seperti Neptunus, Uranus mengumpulkan material dari nebula ini melalui proses akresi, menghasilkan inti yang terdiri dari batuan dan es serta atmosfer yang kaya akan hidrogen dan helium."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Orbit dan Rotasi Neptunus",
+            "patterns": [
+                "Bagaimana orbit dan rotasi Neptunus?",
+                "Periode orbit dan rotasi Neptunus?",
+                "Kecepatan rotasi Neptunus?",
+                "Detail tentang orbit dan rotasi Neptunus?"
+            ],
+            "responses": [
+                "Neptunus mengorbit Matahari sekali setiap 165 tahun Bumi dan berotasi setiap 16 jam. Orbitnya hampir melingkar dan sedikit miring terhadap bidang ekliptika."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Orbit dan Rotasi Uranus",
+            "patterns": [
+                "Bagaimana orbit dan rotasi Uranus?",
+                "Periode orbit dan rotasi Uranus?",
+                "Kecepatan rotasi Uranus?",
+                "Detail tentang orbit dan rotasi Uranus?"
+            ],
+            "responses": [
+                "Uranus memiliki periode orbit sekitar 84 tahun Bumi dan periode rotasi sekitar 17 jam. Orbitnya juga hampir melingkar tetapi sumbu rotasinya sangat miring, hampir sejajar dengan bidang orbitnya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Neptunus dan Voyager 2",
+            "patterns": [
+                "Apa yang ditemukan Voyager 2 di Neptunus?",
+                "Voyager 2 dan Neptunus?",
+                "Penemuan Voyager 2 tentang Neptunus?",
+                "Apa yang dilihat Voyager 2 di Neptunus?"
+            ],
+            "responses": [
+                "Voyager 2 terbang melewati Neptunus pada tahun 1989 dan mengirimkan gambar serta data yang luar biasa tentang atmosfer, cincin, dan satelit Neptunus, termasuk penemuan Bintik Gelap Besar dan geyser nitrogen di Triton."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Uranus dan Voyager 2",
+            "patterns": [
+                "Apa yang ditemukan Voyager 2 di Uranus?",
+                "Voyager 2 dan Uranus?",
+                "Penemuan Voyager 2 tentang Uranus?",
+                "Apa yang dilihat Voyager 2 di Uranus?"
+            ],
+            "responses": [
+                "Voyager 2 mengunjungi Uranus pada tahun 1986 dan mengirimkan data penting tentang atmosfer, cincin, dan satelitnya. Wahana ini menemukan bahwa Uranus memiliki cincin yang gelap dan tipis serta satelit dengan permukaan yang bervariasi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Gravitasi di Neptunus",
+            "patterns": [
+                "Bagaimana gravitasi di Neptunus?",
+                "Kekuatan gravitasi di Neptunus?",
+                "Gravitasi planet Neptunus?",
+                "Perbandingan gravitasi Neptunus dengan Bumi?"
+            ],
+            "responses": [
+                "Gravitasi di Neptunus sekitar 1,14 kali gravitasi di Bumi. Ini berarti bahwa seseorang akan merasa sedikit lebih berat di Neptunus dibandingkan di Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Gravitasi di Uranus",
+            "patterns": [
+                "Bagaimana gravitasi di Uranus?",
+                "Kekuatan gravitasi di Uranus?",
+                "Gravitasi planet Uranus?",
+                "Perbandingan gravitasi Uranus dengan Bumi?"
+            ],
+            "responses": [
+                "Gravitasi di Uranus sekitar 0,89 kali gravitasi di Bumi. Ini berarti bahwa seseorang akan merasa sedikit lebih ringan di Uranus dibandingkan di Bumi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Komposisi Inti Neptunus",
+            "patterns": [
+                "Apa komposisi inti Neptunus?",
+                "Inti planet Neptunus?",
+                "Terbuat dari apa inti Neptunus?",
+                "Bahan inti Neptunus?"
+            ],
+            "responses": [
+                "Inti Neptunus terdiri dari campuran batuan dan logam, dikelilingi oleh mantel es yang terdiri dari air, amonia, dan metana. Inti ini sangat panas dengan suhu yang mencapai ribuan derajat."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Komposisi Inti Uranus",
+            "patterns": [
+                "Apa komposisi inti Uranus?",
+                "Inti planet Uranus?",
+                "Terbuat dari apa inti Uranus?",
+                "Bahan inti Uranus?"
+            ],
+            "responses": [
+                "Inti Uranus terdiri dari campuran batuan dan es, dikelilingi oleh mantel yang kaya akan air, amonia, dan metana. Inti ini juga memiliki suhu yang sangat tinggi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Penemuan Neptunus",
+            "patterns": [
+                "Kapan Neptunus ditemukan?",
+                "Siapa yang menemukan Neptunus?",
+                "Penemuan planet Neptunus?",
+                "Bagaimana Neptunus ditemukan?"
+            ],
+            "responses": [
+                "Neptunus ditemukan pada 23 September 1846 oleh astronom Jerman Johann Galle berdasarkan prediksi matematis oleh Urbain Le Verrier dan John Couch Adams."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Penemuan Uranus",
+            "patterns": [
+                "Kapan Uranus ditemukan?",
+                "Siapa yang menemukan Uranus?",
+                "Penemuan planet Uranus?",
+                "Bagaimana Uranus ditemukan?"
+            ],
+            "responses": [
+                "Uranus ditemukan oleh astronom William Herschel pada 13 Maret 1781. Ini adalah penemuan pertama planet menggunakan teleskop."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Magnetosfer Neptunus",
+            "patterns": [
+                "Bagaimana magnetosfer Neptunus?",
+                "Medan magnet Neptunus?",
+                "Magnetosfer planet Neptunus?",
+                "Detail tentang magnetosfer Neptunus?"
+            ],
+            "responses": [
+                "Neptunus memiliki medan magnet yang kuat dan tidak simetris. Magnetosfer Neptunus miring sekitar 47 derajat dari sumbu rotasinya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Magnetosfer Uranus",
+            "patterns": [
+                "Bagaimana magnetosfer Uranus?",
+                "Medan magnet Uranus?",
+                "Magnetosfer planet Uranus?",
+                "Detail tentang magnetosfer Uranus?"
+            ],
+            "responses": [
+                "Uranus memiliki medan magnet yang sangat miring, sekitar 59 derajat dari sumbu rotasinya. Magnetosfernya juga sangat tidak simetris."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Penyelidikan Masa Depan Neptunus",
+            "patterns": [
+                "Apakah ada rencana untuk misi ke Neptunus?",
+                "Penyelidikan masa depan Neptunus?",
+                "Misi masa depan ke Neptunus?",
+                "Eksplorasi Neptunus di masa depan?"
+            ],
+            "responses": [
+                "Ada berbagai rencana untuk misi masa depan ke Neptunus, termasuk proposal untuk mengirimkan orbiter dan pengorbit untuk mempelajari planet ini lebih detail."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Penyelidikan Masa Depan Uranus",
+            "patterns": [
+                "Apakah ada rencana untuk misi ke Uranus?",
+                "Penyelidikan masa depan Uranus?",
+                "Misi masa depan ke Uranus?",
+                "Eksplorasi Uranus di masa depan?"
+            ],
+            "responses": [
+                "Para ilmuwan sedang mempertimbangkan berbagai misi masa depan ke Uranus, termasuk pengiriman pengorbit untuk mempelajari struktur dan atmosfernya lebih detail."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Cincin Neptunus",
+            "patterns": [
+                "Apakah Neptunus memiliki cincin?",
+                "Cincin Neptunus?",
+                "Detail tentang cincin Neptunus?",
+                "Informasi tentang cincin Neptunus?"
+            ],
+            "responses": [
+                "Neptunus memiliki lima cincin utama yang terdiri dari partikel debu dan es. Cincin-cincin ini dinamai Adams, Le Verrier, Lassell, Arago, dan Galle."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Cincin Uranus",
+            "patterns": [
+                "Apakah Uranus memiliki cincin?",
+                "Cincin Uranus?",
+                "Detail tentang cincin Uranus?",
+                "Informasi tentang cincin Uranus?"
+            ],
+            "responses": [
+                "Uranus memiliki 13 cincin yang tipis dan gelap. Cincin-cincin ini terdiri dari partikel kecil yang diduga berasal dari tabrakan satelit kecil."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Metana di Neptunus",
+            "patterns": [
+                "Apakah ada metana di Neptunus?",
+                "Metana di atmosfer Neptunus?",
+                "Peran metana di Neptunus?",
+                "Metana dan warna Neptunus?"
+            ],
+            "responses": [
+                "Metana di atmosfer Neptunus menyerap cahaya merah dan memantulkan cahaya biru, memberikan planet ini warna biru yang khas."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Metana di Uranus",
+            "patterns": [
+                "Apakah ada metana di Uranus?",
+                "Metana di atmosfer Uranus?",
+                "Peran metana di Uranus?",
+                "Metana dan warna Uranus?"
+            ],
+            "responses": [
+                "Metana di atmosfer Uranus menyerap cahaya merah dan memantulkan cahaya biru kehijauan, memberikan planet ini warna biru kehijauan yang khas."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Angin di Neptunus",
+            "patterns": [
+                "Seberapa kuat angin di Neptunus?",
+                "Angin di Neptunus?",
+                "Kecepatan angin di Neptunus?",
+                "Informasi tentang angin di Neptunus?"
+            ],
+            "responses": [
+                "Neptunus memiliki angin yang sangat kuat, mencapai kecepatan hingga 2.100 km/jam, menjadikannya planet dengan angin terkuat di tata surya kita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Angin di Uranus",
+            "patterns": [
+                "Seberapa kuat angin di Uranus?",
+                "Angin di Uranus?",
+                "Kecepatan angin di Uranus?",
+                "Informasi tentang angin di Uranus?"
+            ],
+            "responses": [
+                "Uranus juga memiliki angin yang kuat, meskipun tidak sekuat Neptunus, dengan kecepatan mencapai 900 km/jam."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Energi Internal Neptunus",
+            "patterns": [
+                "Apakah Neptunus memiliki energi internal?",
+                "Sumber energi internal Neptunus?",
+                "Energi panas di dalam Neptunus?",
+                "Energi internal Neptunus?"
+            ],
+            "responses": [
+                "Neptunus memiliki sumber energi internal yang besar, yang menghasilkan panas dan memengaruhi aktivitas atmosfernya. Sumber energi ini diduga berasal dari peluruhan radioaktif dan proses kontraksi gravitasi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Energi Internal Uranus",
+            "patterns": [
+                "Apakah Uranus memiliki energi internal?",
+                "Sumber energi internal Uranus?",
+                "Energi panas di dalam Uranus?",
+                "Energi internal Uranus?"
+            ],
+            "responses": [
+                "Uranus memiliki energi internal yang lebih sedikit dibandingkan dengan Neptunus, yang membuatnya memiliki aktivitas atmosfer yang lebih rendah. Penyebab rendahnya energi internal ini masih menjadi misteri bagi para ilmuwan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Komposisi Atmosfer Uranus",
+            "patterns": [
+                "Apa komposisi atmosfer Uranus?",
+                "Gas di atmosfer Uranus?",
+                "Komponen utama atmosfer Uranus?",
+                "Detail tentang atmosfer Uranus?"
+            ],
+            "responses": [
+                "Atmosfer Uranus terdiri dari hidrogen (83%), helium (15%), dan metana (2%). Metana adalah yang memberikan warna biru kehijauan pada planet ini."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Komposisi Atmosfer Neptunus",
+            "patterns": [
+                "Apa komposisi atmosfer Neptunus?",
+                "Gas di atmosfer Neptunus?",
+                "Komponen utama atmosfer Neptunus?",
+                "Detail tentang atmosfer Neptunus?"
+            ],
+            "responses": [
+                "Atmosfer Neptunus terdiri dari hidrogen (80%), helium (19%), dan metana (1%). Metana adalah yang memberikan warna biru pada planet ini."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Gaya Gravitasi Neptunus",
+            "patterns": [
+                "Seberapa kuat gaya gravitasi di Neptunus?",
+                "Gravitasi Neptunus?",
+                "Gaya tarik gravitasi Neptunus?",
+                "Perbandingan gravitasi Neptunus dengan Bumi?"
+            ],
+            "responses": [
+                "Gaya gravitasi di Neptunus sekitar 1,14 kali gravitasi di Bumi. Ini berarti bahwa jika Anda memiliki berat 100 kg di Bumi, Anda akan memiliki berat 114 kg di Neptunus."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Gaya Gravitasi Uranus",
+            "patterns": [
+                "Seberapa kuat gaya gravitasi di Uranus?",
+                "Gravitasi Uranus?",
+                "Gaya tarik gravitasi Uranus?",
+                "Perbandingan gravitasi Uranus dengan Bumi?"
+            ],
+            "responses": [
+                "Gaya gravitasi di Uranus sekitar 0,89 kali gravitasi di Bumi. Ini berarti bahwa jika Anda memiliki berat 100 kg di Bumi, Anda akan memiliki berat 89 kg di Uranus."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Ukuran Neptunus",
+            "patterns": [
+                "Berapa ukuran Neptunus?",
+                "Diameter Neptunus?",
+                "Besar ukuran Neptunus?",
+                "Ukuran Neptunus?"
+            ],
+            "responses": [
+                "Diameter Neptunus adalah sekitar 49.244 kilometer, menjadikannya planet terbesar keempat dalam tata surya kita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Ukuran Uranus",
+            "patterns": [
+                "Berapa ukuran Uranus?",
+                "Diameter Uranus?",
+                "Ukuran planet Uranus?"
+            ],
+            "responses": [
+                "Diameter Uranus adalah sekitar 50.724 kilometer, menjadikannya planet ketujuh terbesar dalam tata surya kita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Titik Terpanas di Neptunus",
+            "patterns": [
+                "Di mana titik terpanas di Neptunus?",
+                "Suhu tertinggi di Neptunus?",
+                "Titik panas di atmosfer Neptunus?"
+            ],
+            "responses": [
+                "Titik terpanas di Neptunus terletak di intinya, di mana suhu mencapai sekitar 7.000 derajat Celsius."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Titik Terpanas di Uranus",
+            "patterns": [
+                "Di mana titik terpanas di Uranus?",
+                "Suhu tertinggi di Uranus?",
+                "Titik panas di atmosfer Uranus?"
+            ],
+            "responses": [
+                "Titik terpanas di Uranus juga terletak di intinya, dengan suhu yang diperkirakan mencapai sekitar 5.000 derajat Celsius."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Triton, Satelit Neptunus",
+            "patterns": [
+                "Apa yang diketahui tentang Triton?",
+                "Satelit Triton Neptunus?",
+                "Detail tentang Triton?"
+            ],
+            "responses": [
+                "Triton adalah satelit terbesar Neptunus dan satu-satunya satelit besar dalam tata surya yang memiliki orbit retrograde. Permukaannya dipenuhi dengan gunung berapi es dan geiser nitrogen aktif."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Miranda, Satelit Uranus",
+            "patterns": [
+                "Apa yang diketahui tentang Miranda?",
+                "Satelit Miranda Uranus?",
+                "Detail tentang Miranda?"
+            ],
+            "responses": [
+                "Miranda adalah salah satu satelit terbesar Uranus. Permukaannya penuh dengan patahan dan tebing yang menunjukkan adanya aktivitas geologis yang kompleks."
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
